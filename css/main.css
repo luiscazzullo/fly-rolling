@@ -1,0 +1,24 @@
+/**
+COLOUR PALETTES
+
+* bg_navbar: #304848;
+
+* bg_main:  #304860;
+
+* bg_footer: #A8A8A8;
+
+https://www.colourlovers.com/palette/155071/Rei_Ayanami
+
+**/
+
+.bg_navbar {
+    background: #304848;
+}
+
+.bg_main {
+    background: #304860;
+}
+
+.bg_footer {
+    background: #A8A8A8;
+}
