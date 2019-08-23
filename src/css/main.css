@@ -15,11 +15,12 @@ https://www.colourlovers.com/palette/155071/Rei_Ayanami
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Bitter', serif;
     color: white;
+    font-weight: bold;
 }
 
 p, a, strong, span, li {
     font-family: 'Noto Serif', serif;
-    color: gray;
+    color: white;
 }
 
 .bg_navbar {
@@ -48,4 +49,12 @@ p, a, strong, span, li {
 .stars-container i {
     color: #E16C02;
     font-size: 12px;
+}
+
+.control-position-prev::before {
+    background: black;
+    border-radius: 50%;
+    content: '';
+    width: 25px;
+    z-index: 1000;
 }
