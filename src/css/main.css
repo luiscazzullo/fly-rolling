@@ -42,6 +42,11 @@ p, a, strong, span, li, small {
     display: flex;
 }
 
+.price-size {
+    font-size: 1.6em;
+}
+
+
 .stars-container {
     display: flex;
 }
