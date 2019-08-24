@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
 }
 
-p, a, strong, span, li {
+p, a, strong, span, li, small {
     font-family: 'Noto Serif', serif;
     color: white;
 }
@@ -51,10 +51,6 @@ p, a, strong, span, li {
     font-size: 12px;
 }
 
-.control-position-prev::before {
-    background: black;
-    border-radius: 50%;
-    content: '';
-    width: 25px;
-    z-index: 1000;
+.controls-container {
+    display: flex;
 }
