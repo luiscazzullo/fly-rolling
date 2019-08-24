@@ -15,7 +15,7 @@ https://www.colourlovers.com/palette/155071/Rei_Ayanami
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Bitter', serif;
     color: white;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 p, a, strong, span, li, small {
@@ -69,4 +69,41 @@ p, a, strong, span, li, small {
     height: 45px;
     width: 45px;
     border-radius: 50%;
+}
+
+
+/*FOOTER*/
+
+footer .form-image-container {
+    width: 90px;
+}
+
+footer .form-image-container img {
+    max-width: 100%;
+}
+
+.input-size {
+    width: 300px !important;
+}
+
+.social-media-container {
+    display: flex;
+}
+
+.twitter, .facebook, .instagram {
+    width: 25px;
+}
+
+.social-media-container img {
+    max-width: 100%;
+}
+
+.link-decoration {
+    color: white;
+    text-decoration: none;
+}
+
+.link-decoration:hover {
+    color: white;
+    text-decoration: underline;
 }
