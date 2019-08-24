@@ -51,6 +51,22 @@ p, a, strong, span, li, small {
     font-size: 12px;
 }
 
-.controls-container {
-    display: flex;
+.carousel-control-next::before {
+    content: '';
+    background: #000;
+    opacity: 0.5;
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+
+.carousel-control-prev::before {
+    content: '';
+    background: #000;
+    opacity: 0.5;
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
 }
