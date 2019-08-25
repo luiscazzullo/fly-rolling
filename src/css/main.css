@@ -113,3 +113,7 @@ footer .form-image-container img {
     color: white;
     text-decoration: underline;
 }
+
+.position-controls {
+    width: 1%;
+}
