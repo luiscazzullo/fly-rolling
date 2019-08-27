@@ -33,8 +33,31 @@ p, a, strong, span, li {
 .bg_footer {
     background: #A8A8A8;
 }
+/** HEADER**/
+.navbar{
+    padding: 0px 1px 0px 1px;
+    margin-top:-5px;
+    
+}
+.navbar a img{  
+   margin:-40px;
+   height:150px;
+   margin-left:0px;
+   animation-name: logo;
+   animation-duration:4s;
+}
 
+.nav-item a:hover{
+    color:white;
+}
+.nav-item a span:hover{
+    color:white;
+}
+@keyframes logo{
+    from{opacity: 0}
+    to    {opacity: 1}
 
+}
 /** C A R D  T Y P E 3**/
 
 .card-details {
@@ -49,3 +72,27 @@ p, a, strong, span, li {
     color: #E16C02;
     font-size: 12px;
 }
+
+/**breakpoints HEADER**/
+@media(max-width: 575.98px){
+    .nav .nav-item a span{
+        display:none;
+       }
+}
+@media(max-width: 768px){
+   .nav .nav-item a span{
+    display:none;
+   }
+}
+
+@media (max-width: 992px){
+    .nav .nav-item a span{
+       display:none;
+    }
+    .nav .nav-item a .visible{
+        z-index: inherit 1;
+    }
+}
+
+
+/**END breakpoints HEAD}ER**/
