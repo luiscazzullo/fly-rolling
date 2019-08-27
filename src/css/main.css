@@ -28,8 +28,9 @@ p, a, strong, span, li {
 }
 
 .bg_main {
-    background: #304860;
+    background: #7798b9;
 }
+
 
 .bg_footer {
     background: #A8A8A8;
@@ -57,4 +58,23 @@ p, a, strong, span, li {
     content: '';
     width: 25px;
     z-index: 1000;
+}
+
+/** B U S C A D O R   D E   V U E L O S**/
+
+.img-buscador {
+    background-image: url(../images/Rio-de-Janeiro.jpg);
+    height: 300px;
+} 
+.mt-4 {
+    margin-top: auto;
+    margin-bottom:auto; 
+}
+.form-row {
+    background: white rgb(240,240,240);
+    color:white;
+    justify-content: center;
+}
+.form-check {
+    color:white;
 }
