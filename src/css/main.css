@@ -58,6 +58,9 @@ p, a, strong, span, li {
     to    {opacity: 1}
 
 }
+.brand_logo_container{
+    margin-bottom:25px;
+}
 /** C A R D  T Y P E 3**/
 
 .card-details {
