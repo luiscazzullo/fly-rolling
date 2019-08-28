@@ -15,16 +15,16 @@ https://www.colourlovers.com/palette/155071/Rei_Ayanami
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Bitter', serif;
     color: white;
-    font-weight: bold;
+    font-weight: 700;
 }
 
-p, a, strong, span, li {
+p, a, strong, span, li, small {
     font-family: 'Noto Serif', serif;
     color: white;
 }
 
 .bg_navbar {
-    background: #304848;
+    background:#304848;
 }
 
 .bg_main {
@@ -33,7 +33,7 @@ p, a, strong, span, li {
 
 
 .bg_footer {
-    background: #A8A8A8;
+    background:#A8A8A8;
 }
 
 
@@ -42,6 +42,11 @@ p, a, strong, span, li {
 .card-details {
     display: flex;
 }
+
+.price-size {
+    font-size: 1.6em;
+}
+
 
 .stars-container {
     display: flex;
@@ -52,110 +57,81 @@ p, a, strong, span, li {
     font-size: 12px;
 }
 
-.control-position-prev::before {
-    background: black;
+.carousel-control-next::before {
+    content: '';
+    background: #000;
+    opacity: 0.5;
+    position: absolute;
+    height: 45px;
+    width: 45px;
     border-radius: 50%;
+}
+
+.carousel-control-prev::before {
     content: '';
     width: 25px;
     z-index: 1000;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /** B U S C A D O R   D E   V U E L O S**/
 
 .img-buscador {
     background-image: url(../images/Rio-de-Janeiro.jpg);
     height: 300px;
 } 
-.mt-4 {
-    margin-top: auto;
-    margin-bottom:auto; 
-}
-.form-row {
+
+.search {
     background: white rgb(240,240,240);
     color:white;
     justify-content: center;
 }
-.form-check {
+.form-c {
     color:white;
+    background: #000;
+    opacity: 0.5;
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+
+
+/*FOOTER*/
+
+footer .form-image-container {
+    width: 90px;
+}
+
+footer .form-image-container img {
+    max-width: 100%;
+}
+
+.input-size {
+    width: 300px !important;
+}
+
+.social-media-container {
+    display: flex;
+    justify-content: center;
+}
+
+.twitter, .facebook, .instagram {
+    width: 30px;
+}
+
+.social-media-container img {
+    max-width: 100%;
+}
+
+.link-decoration {
+    color: white;
+    text-decoration: none;
+}
+
+.link-decoration:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.position-controls {
+    width: 1%;
 }

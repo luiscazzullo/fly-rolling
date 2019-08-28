@@ -5,7 +5,7 @@
     "author": "Comisión 8",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "parcel ./src/index.html",
+        "start": "parcel ./src/index.html ./src/checkout.html ./src/results.html",
         "build": "parcel build ./src/index.html --public-url ./"
     },
     "devDependencies": {
