@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Fly Rolling</title>
-    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css"><!-- Bootstrap -->
     <link rel="stylesheet" href="./css/main.css"> <!-- Main CSS -->
     <link href="https://fonts.googleapis.com/css?family=Bitter|Noto+Serif&display=swap" rel="stylesheet"><!-- Google Fonts -->
     <script src="https://kit.fontawesome.com/4df2f2241d.js"></script><!-- Font Awesome -->
@@ -25,56 +24,85 @@
     <!-- END ALERT KARY -->
 
     <!-- HEADER -->
-    <div class="container bg_navbar">
-        <div class="row justify-content-between">
-            <div class="col-xs-6 col-sm-1 col-md-3 ">
-                    <nav class="navbar">
-                            <a class="navbar-brand navbar" href="#">
-                                <img src="./images/logo.png">
-                            </a>
-                    </nav>           
-            </div>
-           <div class="col-xs-6 col-sm-11 col-md-9 ">
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                      <a class="nav-link active" href="index.html">
-                        <i class="fas fa-headphones"></i>
-                        <span>Para Ventas 0810 555 555</span> 
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                          <a class="nav-link active" href="login.html">
-                            <i class="fas fa-user"></i>
-                           <span>Iniciar Sesion</span> 
+    <div class="bg_navbar">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-sm-1 col-md-3 ">
+                        <nav class="navbar">
+                                <a class="navbar-brand navbar" href="#">
+                                    <img src="./images/logo.png">
+                                </a>
+                        </nav>           
+                </div>
+               <div class="col-sm-11 col-md-9 ">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                          <a class="nav-link active" href="index.html">
+                            <i class="fas fa-headphones"></i>
+                            <span>Para Ventas 0810 555 555</span> 
                           </a>
                         </li>
-                    <li class="nav-item">
-                          <a class="nav-link active" href="#">
-                            <i class="fas fa-suitcase-rolling"></i>
-                            <span>Mis Viajes</span> 
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">
-                            <i class="fas fa-question-circle"></i>
-                         <span> Ayuda</span>
-                      </a>
-                  </li>
-                   
-                </ul>   
+                        <li class="nav-item">
+                              <a class="nav-link active" href="login.html">
+                                <i class="fas fa-user"></i>
+                               <span>Iniciar Sesion</span> 
+                              </a>
+                            </li>
+                        <li class="nav-item">
+                              <a class="nav-link active" href="#">
+                                <i class="fas fa-suitcase-rolling"></i>
+                                <span>Mis Viajes</span> 
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">
+                                <i class="fas fa-question-circle"></i>
+                             <span> Ayuda</span>
+                          </a>
+                      </li>
+                       
+                    </ul>   
+                </div>
             </div>
+     
         </div>
+
+
+
     </div>
     <!-- END HEADER -->
 
     <!-- MENU -->
 
-    <div class="row">
-        <div class="col-12">
-            <div class="container">
-
-            </div>
-        </div>
+    <div class="">
+        <nav class=" navbar justify-content-center bg_navbar">
+            <ul class="nav ">
+                <li class="nav-item">
+                    <a class="nav-link border border-white rounded m-1 active " href="#"><i class="fa fa-plane"></i> Vuelos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link border border-white rounded m-1" href="#"> <i class="fas fa-concierge-bell"></i> Hotel</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link border border-white rounded m-1" href="#"><i class="fas fa-suitcase"></i> Paquetes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link border border-white rounded m-1" href="#"><i class="fas fa-running"></i> Actividades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link border border-white rounded m-1" href="#"><i class="fas fa-medkit"></i> Seguros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link border border-white rounded m-1" href="#"><i class="fas fa-car-side"></i> Autos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link border border-white rounded m-1" href="#"><i class="fas fa-bus-alt"></i> Traslados</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link border border-white rounded m-1" href="#"><i class="fas fa-ship"></i> Cruceros</a>
+                </li>
+            </ul>
+        </nav>
     </div>
 
     <!-- END MENU -->
@@ -117,9 +145,247 @@
         
     <!-- END SEGUNDA TARJETA -->
 
+
     <!-- TERCERA TARJETA -->
 
     <div class="row">
+
+        <div class="col-12 mt-3">
+            <h5 class="ml-n3">Alojate</h5>
+        </div>
+        <div class="col-12">
+            <h3 class="ml-n3">Barelona: el confort a tu servicio</h3>
+        </div>
+
+        <!-- C A R O U S E L -->
+
+        <div class="row">
+
+            <div id="carouselBcn" class="carousel slide" data-ride="carousel"  data-interval="false">
+ 
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6 col-6">
+                                <div class="card bg-dark mb-3">
+                                    <img src="./images/hotel-bcn-1.jpg" alt="" class="card-img-top" />
+                                    <div class="card-body">
+                                        <h6 class="card-subtitle">Hotel</h6>
+                                        <h5 class="card-title">Hotel Silken</h5>
+                                        <div class="card-details align-items-center">
+                                            <span class="badge badge-secondary mr-2">7.7</span>
+                                            <div class="stars-container">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <span class="badge badge-secondary p-2 mt-3">Desayuno</span>
+
+                                    </div>
+                                    <div class="card-body border-top p-2">
+                                        <p class="small m-0">Precio por noche</p>
+                                        <p class="price-size m-0">$2.000</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-sm-6 col-6">
+                                <div class="card bg-dark mb-3">
+                                    <img src="./images/hotel-bcn-2.jpg" alt="" class="card-img-top" />
+                                    <div class="card-body">
+                                        <h6 class="card-subtitle">Hotel</h6>
+                                        <h5 class="card-title">Hotel Barcelona 1882</h5>
+                                        <div class="card-details align-items-center">
+                                            <span class="badge badge-secondary mr-2">9.8</span>
+                                            <div class="stars-container">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <span class="badge badge-secondary p-2 mt-3">De lujo</span>
+
+                                    </div>
+                                    <div class="card-body border-top p-2">
+                                        <p class="small m-0">Precio por noche</p>
+                                        <p class="price-size m-0">$2.786</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-sm-6 col-6">
+                                <div class="card bg-dark mb-3">
+                                    <img src="./images/hotel-bcn-3.jpg" alt="" class="card-img-top" />
+                                    <div class="card-body">
+                                        <h6 class="card-subtitle">Hotel</h6>
+                                        <h5 class="card-title">Hotel Rec Barcelona</h5>
+                                        <div class="card-details align-items-center">
+                                            <span class="badge badge-secondary mr-2">8</span>
+                                            <div class="stars-container">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <span class="badge badge-secondary p-2 mt-3">Familiar</span>
+
+                                    </div>
+                                    <div class="card-body border-top p-2">
+                                        <p class="small m-0">Precio por noche</p>
+                                        <p class="price-size m-0">$2.425</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-sm-6 col-6">
+                                <div class="card bg-dark mb-3">
+                                    <img src="./images/hotel-bcn-1.jpg" alt="Hoter Ciutadella" class="card-img-top" />
+                                    <div class="card-body">
+                                        <h6 class="card-subtitle">Hotel</h6>
+                                        <h5 class="card-title">Hotel Ciutadella</h5>
+                                        <div class="card-details align-items-center">
+                                            <span class="badge badge-secondary mr-2">7</span>
+                                            <div class="stars-container">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <span class="badge badge-secondary p-2 mt-3">Relajación</span>
+
+                                    </div>
+                                    <div class="card-body border-top p-2">
+                                        <p class="small m-0">Precio por noche</p>
+                                        <p class="price-size m-0">$1.980</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-md-3 col-sm-6 col-6">
+                                <div class="card bg-dark mb-3">
+                                    <img src="./images/hotel-bcn-5.jpg" alt="" class="card-img-top" />
+                                    <div class="card-body">
+                                        <h6 class="card-subtitle">Hotel</h6>
+                                        <h5 class="card-title">Hotel Iberostar</h5>
+                                        <div class="card-details align-items-center">
+                                            <span class="badge badge-secondary mr-2">8.5</span>
+                                            <div class="stars-container">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <span class="badge badge-success p-2 mt-3">Oferta Especial</span>
+
+                                    </div>
+                                    <div class="card-body border-top p-2">
+                                        <p class="small m-0">Precio por noche</p>
+                                        <p class="price-size m-0">$1.750</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-sm-6 col-6">
+                                <div class="card bg-dark mb-3">
+                                    <img src="./images/hotel-bcn-6.jpg" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <h6 class="card-subtitle">Hotel</h6>
+                                        <h5 class="card-title">Hotel Yurban</h5>
+                                        <div class="card-details align-items-center">
+                                            <span class="badge badge-secondary mr-2">9</span>
+                                            <div class="stars-container">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <span class="badge badge-secondary p-2 mt-3">Colonial</span>
+
+                                    </div>
+                                    <div class="card-body border-top p-2">
+                                        <p class="small m-0">Precio por noche</p>
+                                        <p class="price-size m-0">$2.750</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-sm-6 col-6">
+                                <div class="card bg-dark mb-3">
+                                    <img src="./images/hotel-bcn-7.jpg" alt="" class="card-img-top" />
+                                    <div class="card-body">
+                                        <h6 class="card-subtitle">Hotel</h6>
+                                        <h5 class="card-title">Hotel Almanac</h5>
+                                        <div class="card-details align-items-center">
+                                            <span class="badge badge-secondary mr-2">8.3</span>
+                                            <div class="stars-container">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <span class="badge badge-secondary p-2 mt-3">Spa</span>
+
+                                    </div>
+                                    <div class="card-body border-top p-2">
+                                        <p class="small m-0">Precio por noche</p>
+                                        <p class="price-size m-0">$2.180</p>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="col-md-3 col-sm-6 col-6">
+                                <div class="card bg-dark mb-3">
+                                    <img src="./images/hotel-bcn-8.jpg" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <h6 class="card-subtitle">Hotel</h6>
+                                        <h5 class="card-title">Hotel Hotel The One</h5>
+                                        <div class="card-details align-items-center">
+                                            <span class="badge badge-secondary mr-2">8</span>
+                                            <div class="stars-container">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <span class="badge badge-secondary p-2 mt-3">Aire Libre</span>
+
+                                    </div>
+                                    <div class="card-body border-top p-2">
+                                        <p class="small m-0">Precio por noche</p>
+                                        <p class="price-size m-0">$2.200</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                    <a class="carousel-control-prev position-controls" href="#carouselBcn" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next position-controls" href="#carouselBcn" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+            </div>
+        </div>
+
+        <!-- E N D   C A R O U S E L -->
         
     </div>
     
@@ -128,6 +394,243 @@
     <!-- CUARTA TARJETA -->
 
     <div class="row">
+
+        <div class="col-12 mt-3">
+            <h5 class="ml-n3">Alojate</h5>
+        </div>
+        <div class="col-12">
+            <h3 class="ml-n3">Barelona: el confort a tu servicio</h3>
+        </div>
+
+        <!-- C A R O U S E L -->
+
+        <div class="row">
+
+            <div id="carouselParis" class="carousel slide" data-ride="carousel"  data-interval="false">
+ 
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6 col-6">
+                                <div class="card bg-dark mb-3">
+                                    <img src="./images/hotel-bcn-1.jpg" alt="" class="card-img-top" />
+                                    <div class="card-body">
+                                        <h6 class="card-subtitle">Hotel</h6>
+                                        <h5 class="card-title">Hotel Silken</h5>
+                                        <div class="card-details align-items-center">
+                                            <span class="badge badge-secondary mr-2">7.7</span>
+                                            <div class="stars-container">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <span class="badge badge-secondary p-2 mt-3">Desayuno</span>
+
+                                    </div>
+                                    <div class="card-body border-top p-2">
+                                        <p class="small m-0">Precio por noche</p>
+                                        <p class="price-size m-0">$2.000</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-sm-6 col-6">
+                                <div class="card bg-dark mb-3">
+                                    <img src="./images/hotel-bcn-2.jpg" alt="" class="card-img-top" />
+                                    <div class="card-body">
+                                        <h6 class="card-subtitle">Hotel</h6>
+                                        <h5 class="card-title">Hotel Barcelona 1882</h5>
+                                        <div class="card-details align-items-center">
+                                            <span class="badge badge-secondary mr-2">9.8</span>
+                                            <div class="stars-container">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <span class="badge badge-secondary p-2 mt-3">De lujo</span>
+
+                                    </div>
+                                    <div class="card-body border-top p-2">
+                                        <p class="small m-0">Precio por noche</p>
+                                        <p class="price-size m-0">$2.786</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-sm-6 col-6">
+                                <div class="card bg-dark mb-3">
+                                    <img src="./images/hotel-bcn-3.jpg" alt="" class="card-img-top" />
+                                    <div class="card-body">
+                                        <h6 class="card-subtitle">Hotel</h6>
+                                        <h5 class="card-title">Hotel Rec Barcelona</h5>
+                                        <div class="card-details align-items-center">
+                                            <span class="badge badge-secondary mr-2">8</span>
+                                            <div class="stars-container">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <span class="badge badge-secondary p-2 mt-3">Familiar</span>
+
+                                    </div>
+                                    <div class="card-body border-top p-2">
+                                        <p class="small m-0">Precio por noche</p>
+                                        <p class="price-size m-0">$2.425</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-sm-6 col-6">
+                                <div class="card bg-dark mb-3">
+                                    <img src="./images/hotel-bcn-1.jpg" alt="Hoter Ciutadella" class="card-img-top" />
+                                    <div class="card-body">
+                                        <h6 class="card-subtitle">Hotel</h6>
+                                        <h5 class="card-title">Hotel Ciutadella</h5>
+                                        <div class="card-details align-items-center">
+                                            <span class="badge badge-secondary mr-2">7</span>
+                                            <div class="stars-container">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <span class="badge badge-secondary p-2 mt-3">Relajación</span>
+
+                                    </div>
+                                    <div class="card-body border-top p-2">
+                                        <p class="small m-0">Precio por noche</p>
+                                        <p class="price-size m-0">$1.980</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-md-3 col-sm-6 col-6">
+                                <div class="card bg-dark mb-3">
+                                    <img src="./images/hotel-bcn-5.jpg" alt="" class="card-img-top" />
+                                    <div class="card-body">
+                                        <h6 class="card-subtitle">Hotel</h6>
+                                        <h5 class="card-title">Hotel Iberostar</h5>
+                                        <div class="card-details align-items-center">
+                                            <span class="badge badge-secondary mr-2">8.5</span>
+                                            <div class="stars-container">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <span class="badge badge-success p-2 mt-3">Oferta Especial</span>
+
+                                    </div>
+                                    <div class="card-body border-top p-2">
+                                        <p class="small m-0">Precio por noche</p>
+                                        <p class="price-size m-0">$1.750</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-sm-6 col-6">
+                                <div class="card bg-dark mb-3">
+                                    <img src="./images/hotel-bcn-6.jpg" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <h6 class="card-subtitle">Hotel</h6>
+                                        <h5 class="card-title">Hotel Yurban</h5>
+                                        <div class="card-details align-items-center">
+                                            <span class="badge badge-secondary mr-2">9</span>
+                                            <div class="stars-container">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <span class="badge badge-secondary p-2 mt-3">Colonial</span>
+
+                                    </div>
+                                    <div class="card-body border-top p-2">
+                                        <p class="small m-0">Precio por noche</p>
+                                        <p class="price-size m-0">$2.750</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-sm-6 col-6">
+                                <div class="card bg-dark mb-3">
+                                    <img src="./images/hotel-bcn-7.jpg" alt="" class="card-img-top" />
+                                    <div class="card-body">
+                                        <h6 class="card-subtitle">Hotel</h6>
+                                        <h5 class="card-title">Hotel Almanac</h5>
+                                        <div class="card-details align-items-center">
+                                            <span class="badge badge-secondary mr-2">8.3</span>
+                                            <div class="stars-container">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <span class="badge badge-secondary p-2 mt-3">Spa</span>
+
+                                    </div>
+                                    <div class="card-body border-top p-2">
+                                        <p class="small m-0">Precio por noche</p>
+                                        <p class="price-size m-0">$2.180</p>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="col-md-3 col-sm-6 col-6">
+                                <div class="card bg-dark mb-3">
+                                    <img src="./images/hotel-bcn-8.jpg" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <h6 class="card-subtitle">Hotel</h6>
+                                        <h5 class="card-title">Hotel Hotel The One</h5>
+                                        <div class="card-details align-items-center">
+                                            <span class="badge badge-secondary mr-2">8</span>
+                                            <div class="stars-container">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <span class="badge badge-secondary p-2 mt-3">Aire Libre</span>
+
+                                    </div>
+                                    <div class="card-body border-top p-2">
+                                        <p class="small m-0">Precio por noche</p>
+                                        <p class="price-size m-0">$2.200</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                    <a class="carousel-control-prev position-controls" href="#carouselParis" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next position-controls" href="#carouselParis" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+            </div>
+        </div>
+
+        <!-- E N D   C A R O U S E L -->
         
     </div>
     
@@ -184,26 +687,80 @@
 
     <!-- FOOTER -->
 
-    <div class="row">
-
-        <div class="col-12"></div>
+    <footer class="mt-4 p-2 bg_footer">
         <div class="row">
-            <div class="col-md-6"></div>
-            <div class="col-md-3"></div>
-            <div class="col-md-3"></div>
+            <div class="col-12">
+                <h4 class="text-center">
+                    ¡Suscribite para ofertas Exclusivas!
+                </h4>
+            </div>
+            
+            <form class="form-inline mx-auto">
+                <div class="form-image-container m-3">
+                    <img src="./images/form_image.png" alt="Form Image" />
+                </div>
+                <div class="form-group m-3">
+                    <input type="email" class="form-control input-size rounded-sm" id="usr" placeholder="Escribe tu email">
+                </div>
+                <div class="form-group m-3">
+                    <input type="button" class="btn btn-info btn m-3" value="Suscribite">
+                </div>
+            </form>
+        </div>
+        <hr class="m-0"/>
+
+        <div class="row justify-content-around align-items-center my-2">
+            <div class="col-md-4">
+                <div class="social-media-container d-flex justify-content-center">
+                    <div class="facebook mx-2">
+                        <a href="#"><img src="./images/facebook.png" alt="Facebook" /></a>
+                    </div>
+                    <div class="twitter mx-2">
+                        <a href="#"><img src="./images/twitter.png" alt="Twitter" /></a>
+                    </div>
+                    <div class="instagram mx-2">
+                        <a href="#"><img src="./images/instagram.png" alt="" /></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <p class="text-center my-2"><span class="text-dark">Para ventas:</span> 0810 810 9994</p>
+            </div>
+
+            <div class="col-md-4">
+                <p class="text-center my-2"><span class="text-dark">Posventas</span> + 54 11 5173 3543</p>
+            </div>
+
+        </div>
+        <hr class="m-0"/>
+
+        <div class="row justify-content-around p-4 text-center">
+            <div class="col-md-4">
+                <h6>¿Quiénes somos?</h6>
+                <a class="link-decoration" href="#">Institucional</a><br/>
+                <a class="link-decoration" href="#">Nuestros empleados</a><br/>
+                <a class="link-decoration" href="#">¡Celebra 20 años!</a>
+            </div>
+            <div class="col-md-4 d-md-block d-sm-none d-none">
+                <h6>Nuestros servicios</h6>
+                <a class="link-decoration" href="#">Hoteles</a><br/>
+                <a class="link-decoration" href="#">Actividades</a><br/>
+                <a class="link-decoration" href="#">Alquiler</a>
+            </div>
+            <div class="col-md-4 d-md-block d-sm-none d-none">
+                <h6>Contacto</h6>
+                <a class="link-decoration" href="#">Teléfono</a><br/>
+                <a class="link-decoration" href="#">Dirección</a><br/>
+                <a class="link-decoration" href="#">Email</a>
+            </div>
         </div>
 
-        <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
-        </div>
-    </div>
+    </footer>
 
     <!-- END FOOTER -->
     
-    <script src="../node_modules/popper.js/dist/popper.min.js"></script>
-    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script> 
+    <script src="./js/main.js"></script>
+    
 </body>
 </html>

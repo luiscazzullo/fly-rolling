@@ -1,4 +1,5 @@
-import 'bootstrap/dist/css/bootstrap.min';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import 'popper.js/dist/popper'
-import 'jquery/dist/jquery.min';
-import 'bootstrap/dist/js/bootstrap.min';
+import jQuery from 'jquery/dist/jquery';
+import 'bootstrap/dist/js/bootstrap.min.js';
+const $ = jQuery;
