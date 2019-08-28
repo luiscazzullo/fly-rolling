@@ -42,6 +42,10 @@ p, a, strong, span, li, small {
     display: flex;
 }
 
+.m-card-body-bottom {
+    margin-bottom: 3.75rem;
+}
+
 .price-size {
     font-size: 1.6em;
 }
@@ -54,6 +58,10 @@ p, a, strong, span, li, small {
 .stars-container i {
     color: #E16C02;
     font-size: 12px;
+}
+
+.controls-position {
+    width: 1%;
 }
 
 .carousel-control-next::before {
@@ -75,7 +83,6 @@ p, a, strong, span, li, small {
     width: 45px;
     border-radius: 50%;
 }
-
 
 /*FOOTER*/
 
@@ -112,8 +119,4 @@ footer .form-image-container img {
 .link-decoration:hover {
     color: white;
     text-decoration: underline;
-}
-
-.position-controls {
-    width: 1%;
 }
