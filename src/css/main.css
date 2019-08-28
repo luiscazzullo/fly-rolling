@@ -47,6 +47,10 @@ p, a, strong, span, li, small {
     margin-bottom: 3.75rem;
 }
 
+.m-card-body-bottom-2 {
+    margin-bottom: 2.4rem;
+}
+
 .price-size {
     font-size: 1.6em;
 }
