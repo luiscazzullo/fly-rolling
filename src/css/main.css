@@ -146,3 +146,22 @@ footer .form-image-container img {
     color: white;
     text-decoration: underline;
 }
+
+.cards-container {
+    background: lemonchiffon;
+    padding: 5px 30px;
+    
+}
+
+.card-box { 
+    width: 5%;
+    text-align: center;
+}
+.card-box img {
+    width: 100%;
+}
+
+.card-box p {
+    font-size: 12px;
+    color: #000;
+}
