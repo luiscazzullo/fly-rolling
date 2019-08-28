@@ -31,6 +31,7 @@ p, a, strong, span, li, small {
     background: #304860;
 }
 
+
 .bg_footer {
     background:#A8A8A8;
 }
@@ -76,6 +77,23 @@ p, a, strong, span, li, small {
 
 .carousel-control-prev::before {
     content: '';
+    width: 25px;
+    z-index: 1000;
+}
+/** B U S C A D O R   D E   V U E L O S**/
+
+.img-buscador {
+    background-image: url(../images/Rio-de-Janeiro.jpg);
+    height: 300px;
+} 
+
+.search {
+    background: white rgb(240,240,240);
+    color:white;
+    justify-content: center;
+}
+.form-c {
+    color:white;
     background: #000;
     opacity: 0.5;
     position: absolute;
