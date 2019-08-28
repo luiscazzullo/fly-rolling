@@ -62,7 +62,7 @@ p, a, strong, span, li, small {
 }
 
 .controls-position {
-    width: 1%;
+    width: 1% !important;
 }
 
 .carousel-control-next::before {
@@ -77,8 +77,12 @@ p, a, strong, span, li, small {
 
 .carousel-control-prev::before {
     content: '';
-    width: 25px;
-    z-index: 1000;
+    background: #000;
+    opacity: 0.5;
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
 }
 /** B U S C A D O R   D E   V U E L O S**/
 
