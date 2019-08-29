@@ -38,7 +38,6 @@ p, a, strong, span, li, small {
 .navbar{
     padding: 0px 1px 0px 1px;
     margin-top:-5px;
-    
 }
 .navbar a img{  
    margin:-40px;
@@ -48,9 +47,6 @@ p, a, strong, span, li, small {
    animation-duration:4s;
 }
 
-.nav-item a:hover{
-    color:white;
-}
 @keyframes logo{
     from{opacity: 0}
     to    {opacity: 1}
@@ -99,7 +95,6 @@ p, a, strong, span, li, small {
         z-index: inherit 1;
     }
 }
-
 
 /**END breakpoints HEAD}ER**/
 .carousel-control-next::before {
