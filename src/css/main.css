@@ -76,7 +76,7 @@ p, a, strong, span, li, small {
 }
 
 /**breakpoints HEADER**/
-@media(max-width: 575.98px){
+@media(max-width: 576px){
     .nav .nav-item a span{
         display:none;
        }
@@ -86,17 +86,12 @@ p, a, strong, span, li, small {
     display:none;
    }
 }
-
 @media (max-width: 992px){
     .nav .nav-item a span{
        display:none;
     }
-    .nav .nav-item a .visible{
-        z-index: inherit 1;
-    }
 }
-
-/**END breakpoints HEAD}ER**/
+/**END breakpoints HEADER**/
 .carousel-control-next::before {
     content: '';
     background: #000;
