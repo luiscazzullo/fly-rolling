@@ -31,6 +31,7 @@ p, a, strong, span, li, small {
     background: #304860;
 }
 
+
 .bg_footer {
     background:#A8A8A8;
 }
@@ -59,6 +60,14 @@ p, a, strong, span, li, small {
 
 .card-details {
     display: flex;
+}
+
+.m-card-body-bottom {
+    margin-bottom: 3.75rem;
+}
+
+.m-card-body-bottom-2 {
+    margin-bottom: 2.4rem;
 }
 
 .price-size {
@@ -92,6 +101,10 @@ p, a, strong, span, li, small {
     }
 }
 /**END breakpoints HEADER**/
+.controls-position {
+    width: 1% !important;
+}
+
 .carousel-control-next::before {
     content: '';
     background: #000;
@@ -111,7 +124,27 @@ p, a, strong, span, li, small {
     width: 45px;
     border-radius: 50%;
 }
+/** B U S C A D O R   D E   V U E L O S**/
 
+.img-buscador {
+    background-image: url(../images/Rio-de-Janeiro.jpg);
+    height: 300px;
+} 
+
+.search {
+    background: white rgb(240,240,240);
+    color:white;
+    justify-content: center;
+}
+.form-c {
+    color:white;
+    background: #000;
+    opacity: 0.5;
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
 
 /*FOOTER*/
 
@@ -152,4 +185,22 @@ footer .form-image-container img {
 
 .position-controls {
     width: 1%;
+}
+.cards-container {
+    background: lemonchiffon;
+    padding: 5px 30px;
+    
+}
+
+.card-box { 
+    width: 5%;
+    text-align: center;
+}
+.card-box img {
+    width: 100%;
+}
+
+.card-box p {
+    font-size: 12px;
+    color: #000;
 }
