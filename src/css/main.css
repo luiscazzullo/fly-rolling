@@ -264,3 +264,9 @@ footer .form-image-container img {
     color: white;
     font-size: 12px;
 }
+
+.ticket {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(7, auto);
+}
