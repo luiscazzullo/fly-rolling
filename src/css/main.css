@@ -105,6 +105,14 @@ p, a, strong, span, li, small {
     }
 }
 /**END breakpoints HEADER**/
+
+/**CARD TIPO 2**/
+.card-body h5 .price{
+    text-decoration: line-through;
+    font-size: 60%;
+    color: gray;
+}
+/**END CARD TIPO 2**/
 .controls-position {
     width: 1% !important;
 }
