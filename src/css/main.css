@@ -35,6 +35,13 @@ p, a, strong, span, li, small {
 .bg_footer {
     background:#A8A8A8;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /** HEADER**/
 .navbar{
     padding: 0px 1px 0px 1px;
@@ -251,4 +258,9 @@ footer .form-image-container img {
     bottom: -2px;
 }
 
+/* F I L T E R S   C O N T A I N E R S*/
 
+.filters-container ul li a {
+    color: white;
+    font-size: 12px;
+}
