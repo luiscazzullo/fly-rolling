@@ -58,6 +58,10 @@ p, a, strong, span, li, small {
 }
 /** C A R D  T Y P E 3**/
 
+.card-box-shadow:hover {
+    box-shadow: 2px 2px 3px #ccc;
+}
+
 .card-details {
     display: flex;
 }
