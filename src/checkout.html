@@ -7,6 +7,7 @@
     <title>Fly Rolling</title>
     <link rel="stylesheet" href="./css/main.css"> <!-- Main CSS -->
     <link href="https://fonts.googleapis.com/css?family=Bitter|Noto+Serif&display=swap" rel="stylesheet"><!-- Google Fonts -->
+    <script src="https://kit.fontawesome.com/4df2f2241d.js"></script><!-- Font Awesome -->
 </head>
 <body class="bg_main">
 
@@ -98,11 +99,12 @@
                                 <form>
                                         <div class="form-group">
                                             <label for="exampleFormControlInput1">Nombre</label>
-                                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Como figura en el documento de viaje">
+                                            <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Como figura en el documento de viaje">
                                         </div>
                                         <div class="form-group">
                                             <label for="exampleFormControlInput1">Apellido</label>
-                                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Como figura en el documento de viaje">
+                                            <input type="lastname" class="form-control" id="exampleFormControlInput1" placeholder="Como figura en el documento de viaje"  data-toggle="popover" data-trigger="click"
+                                            data-content="testtttt">
                                         </div>
                                         <div class="form-group">
                                           <label for="exampleFormControlSelect1">País de residencia</label>
@@ -125,16 +127,79 @@
                                                     </select>
                                                 </div>
                                                 <div class="col-6">
-                                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                                    <input type="text" class="form-control" id="exampleFormControlInput1"  data-toggle="popover" data-trigger="click"
+                                                    data-content="Dato obligatorio.">
                                                 </div>
                                             </div>
-                                        </div>
-                                        
-                                        
+                                        </div>      
                                 </form>                         
                         </div>
                 </div>
-                <div></div>
+                <div class="card text-white bg-primary mb-3" >
+                        <div class="card-body">
+                            <h5 class="card-title border-dark">Selecciona tu tarjeta</h5>
+                            <h6><a href="">Ver condiciones</a></h6>
+                            <button type="button" class="btn btn-light btn-lg" data-toggle="modal" data-target="#exampleModalLong">Seleccionar tarjeta</button>
+                            <div class="modal fade " id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle">Selecciona tu banco</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                            <div class="card-box ">
+                                                    <img src="https://media.staticontent.com/media/pictures/a87ec60b-5a7a-46c6-a233-6b05ec367011/" alt="">
+                                                    <p>12 y 18 cuotas</p>
+                                            </div>
+                                            <div class="card-box">
+                                                    <img src="https://ar.staticontent.com/oscard/latest/132/HIPS.png?Wednesday" alt="">
+                                                    <p>12 y 18 cuotas</p>
+                                            </div>
+                                            <div class="card-box">
+                                                <img src="https://ar.staticontent.com/oscard/latest/132/CA.png?Wednesday" alt="">
+                                                <p>12 y 18 cuotas</p>
+                                            </div>
+                                            <div class="card-box">
+                                                <img src="https://ar.staticontent.com/oscard/latest/132/ICBC.png?Wednesday" alt="">
+                                                <p>12 y 18 cuotas</p>
+                                            </div>
+                                            <div class="card-box">
+                                                <img src="https://ar.staticontent.com/oscard/latest/132/MACS.png?Wednesday" alt="">
+                                                <p>12 y 18 cuotas</p>
+                                            </div> 
+                                            <div class="card-box">
+                                                <img src="https://ar.staticontent.com/oscard/latest/132/NAC.png?Wednesday" alt="">
+                                                <p>12 y 18 cuotas</p>
+                                            </div>
+                                            <div class="card-box">
+                                                <img src="https://ar.staticontent.com/oscard/latest/132/NAR.png?Wednesday" alt="">
+                                                <p>12 y 18 cuotas</p>
+                                            </div>
+                                            <div class="card-box">
+                                                <img src="https://ar.staticontent.com/oscard/latest/132/TUC.png?Wednesday" alt="">
+                                                <p>12 y 18 cuotas</p>
+                                            </div>
+                                            <div class="card-box">
+                                                <img src="https://ar.staticontent.com/oscard/latest/132/BSE.png?Wednesday" alt="">
+                                                <p>12 y 18 cuotas</p>
+                                            </div>
+                                            <div class="card-box">
+                                                <img src="https://ar.staticontent.com/oscard/latest/132/AZU.png?Wednesday" alt="">
+                                                <p>12 y 18 cuotas</p>
+                                            </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>                         
+                        </div>
+                </div> 
                 <div></div>
                 <div></div>
                 <div></div>
