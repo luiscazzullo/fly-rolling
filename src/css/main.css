@@ -40,6 +40,9 @@ p, a, strong, span, li, small {
     padding: 0px 1px 0px 1px;
     margin-top:-5px;
 }
+nav .nav-item a:hover{
+    color:#007bff;
+}
 .navbar a img{  
    margin:-40px;
    height:150px;
