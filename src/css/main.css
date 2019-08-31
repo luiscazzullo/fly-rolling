@@ -109,7 +109,7 @@ p, a, strong, span, li, small {
 /**CARD TIPO 2**/
 .card-body h5 .price{
     text-decoration: line-through;
-    font-size: 60%;
+    font-size: 70%;
     color: gray;
 }
 /**END CARD TIPO 2**/
