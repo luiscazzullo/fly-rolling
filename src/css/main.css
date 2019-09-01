@@ -160,6 +160,28 @@ nav .nav-item a:hover{
     width: 45px;
     border-radius: 50%;
 }
+/*Guia de viaje*/
+.card1{
+    display: none;
+}
+.card:hover > .card1{
+    display:block;
+    background: rgba(0, 0, 0, 0.4);
+    position:absolute;
+    width:100%;
+    top:0;
+    bottom:0;
+    text-align:center;
+}
+.card1 .btn1 {
+    margin:100px;
+}
+.card-body .guide{
+    color:#304848;
+    size:3px;
+}
+
+/*END DE VIAJE*/
 
 /*FOOTER*/
 
