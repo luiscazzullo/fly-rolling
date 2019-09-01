@@ -268,32 +268,206 @@ footer .form-image-container img {
 /*C A R D   R E S U L T S*/
 
 .ticket-container {
-    border: 2px solid #ccc;
+    border: 1px solid white;
     border-radius: 10px;
+    display: grid;
+    grid-template-columns: 20% 20% 35% 25%;
+    grid-template-rows: repeat(5, auto);
+    padding: 0 6px;
+    grid-gap: 10px 0;
 }
 
 .ticket-container i {
     color: white;
 }
 
-.bg-none {
-    background: transparent !important;
+.ticket-container small, .ticket-container strong {
+    display: block;
 }
 
-.bg-column {
-    background: rgba(110,110,110,.4);
-    border-radius: 0px 10px 10px 0px;
-    background-clip: padding-box;
-}
-
-.card-border {
+.price-container {
     border-left: 1px solid white;
+    grid-row-end: span 5;
+}
+
+.price-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.price-header strong {
+    font-size: 1.5em;
+}
+
+.price-body p {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.price-container hr {
+    margin: 0;
+}
+
+.final-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.CTA {
+    display: flex;
+    justify-content: center;
+    margin: 6px 0;
+}
+
+.CTA button {
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+    font-weight: bold;
+    color: white;
+}
+
+.price-footer {
+    padding: 0.75em;
 }
 
 .company-logo {
-    width: 100px;
+    width: 60%;
 }
 
 .company-logo img {
     max-width: 100%;
+}
+
+.departure-hour {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.departure-hour small {
+    text-decoration: underline;
+}
+
+.destination-hour {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.destination-details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.destination-details i {
+    font-size: 1em;
+}
+
+.return i {
+    transform: rotate(180deg);
+}
+
+.ticket-footer {
+    grid-column: 1 / span 2;
+}
+
+.ticket-footer div {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+
+@media (max-width: 768px) {
+    .ribbon::after, .ribbon::before {
+        right: -19px;
+    }
+}
+
+@media (max-width: 576px) {
+    .ticket-container {
+        grid-template-columns: 33.3% 33.3% 33.3%;
+        grid-template-rows: repeat(, auto);
+        grid-template-areas: "one-way one-way one-way"
+                             "company . ."
+                             "departure departure-hour destination"
+                             "return return return"
+                             "company-two . ."
+                             "departure-return departure-hour-return destination-return"
+                             "ticket-footer ticket-footer ."
+                             "price price price";
+    }
+
+    .one-way {
+        grid-area: one-way;
+    }
+
+    .departure {
+        grid-area: departure;
+    }
+
+    .destination {
+        grid-area: destination;
+    }
+
+    .price-container {
+        grid-area: price;
+        border: none;
+    }
+
+    .company {
+        grid-area: company;
+    }
+
+    .departure-hour {
+        grid-area: departure-hour;
+    }
+
+    .destination-hour {
+        grid-area: hour;
+        display: none;
+    }
+
+    .return {
+        grid-area: return;
+    }
+
+    .destination-return {
+        grid-area: destination-return;
+    }
+
+    .company-two {
+        grid-area: company-two;
+    }
+
+    .departure-return {
+        grid-area: departure-return;
+    }
+
+    .departure-hour-return {
+        grid-area: departure-hour-return;
+    }
+
+    .destination-details {
+        grid-area: destination-details;
+        display: none;
+    }
+
+    .ticket-footer {
+        grid-area: ticket-footer;
+    }
+
+    .price-header {
+        align-items: flex-start;
+    }
+
+    .ribbon::after, .ribbon::before {
+        right: -19px;
+    }
+
 }

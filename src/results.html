@@ -97,7 +97,7 @@
             <div class="col-12">
                 <div class="container">
                         <div class="alert alert-bg d-flex justify-content-between w-100 m-3">
-                            <div class="img-container">
+                            <div class="img-container d-md-block d-sm-none">
                                 <img src="./images/departures.png" alt="Vuelos">
                             </div>
                             <div class="alert-text">
@@ -132,7 +132,11 @@
             <!-- FILTRO DE BÚSQUEDA -->
             <div class="col-2">
                 <div>
-
+                    <div class="card bg-primary">
+                        <div class="card-header border-0">
+                            <h4>Vuelos</h4>
+                        </div>
+                    </div>
                 </div>        
             <!-- END FILTRO DE BÚSQUEDA -->
 
@@ -157,10 +161,10 @@
                             <li class="nav-item bg-primary rounded-pill mr-3">
                                 <a class="nav-link" href="#">1 Escala</a>
                             </li>
-                            <li class="nav-item bg-primary rounded-pill mr-3">
+                            <li class="nav-item bg-primary rounded-pill mr-3 d-md-block d-sm-none d-none">
                                 <a class="nav-link" href="#">Vuelos con equipaje</a>
                             </li>
-                            <li class="nav-item bg-primary rounded-pill mr-3">
+                            <li class="nav-item bg-primary rounded-pill mr-3 d-xl-block d-md-none d-sm-none d-none">
                                 <a class="nav-link" href="#">Ida a la noche</a>
                             </li>
                         </ul>
@@ -172,70 +176,97 @@
                 <!-- T I C K E T -->
 
                 <div class="col-12">
-                    <div class="ticket-container m-4">
-                        <div class="row">
-                            <div class="col-8">
-                                <div class="row">
-                                    <div class="col-4">
-                                        <div class="ticket-column pl-2 bg-column">
-                                            <i class="fas fa-plane"></i>
-                                            <span>IDA</span><br />
-                                            <small>lun. 9sep. 2019</small>
-                                        </div>
-                                    </div>
-                                    <div class="col-4">
-                                        <span>AEP</span><br />
-                                        <small>Buenos Aires</small>
-                                    </div>
-                                    <div class="col-4">
-                                        <span>TUC</span><br />
-                                        <small>San Miguel de Tucumán Equipaje</small>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-4">
-                                        <div class="company pl-2">
-                                            <div class="company-logo">
-                                                <img src="./images/latam-logo.png" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-4"></div>
-                                    <div class="col-4"></div>
-                                </div>
+                    <div class="ticket-container my-4">
+                        <div class="one-way">
+                            <i class="fas fa-plane"></i>
+                            <strong class="d-inline">IDA</strong>
+                            <small>lun. 9 sep. 2019</small>
+                        </div>
+                        <div class="departure">
+                            <strong>AEP</strong>
+                            <small>Buenos Aires</small>
+                        </div>
+                        <div class="destination">
+                            <strong>TUC</strong>
+                            <small>San Miguel de Tucumán, Equipaje</small>
+                        </div>
+                        <div class="price-container">
+                            <div class="price-header">
+                                <small>Precio por adulto</small>
+                                <strong>$5.029</strong>
                             </div>
-                            <div class="col-4 card-border">
-                                <div class="card bg-none border-0 p-0">
-                                    <div class="card-body p-0 d-flex flex-column align-items-end">
-                                        <small>Precio por adulto</small><br />
-                                        <strong>$5.029</strong>
-                                    </div>
-                                    <div class="card-body p-0">
-                                        <p class="d-flex justify-content-between p-0 m-0">
-                                            <span>1 Adulto</span>
-                                            <span>$5.029</span>
-                                        </p>
-                                        <p class="d-flex justify-content-between p-0 m-0">
-                                            <span>Imp. y tasas</span>
-                                            <span>$998</span>
-                                        </p>
-                                        <p class="d-flex justify-content-between p-0 m-0">
-                                            <span>Cargos</span>
-                                            <span>$537</span>
-                                        </p>
-                                    </div>
-                                    <hr />
-                                    <div class="card-body p-0 d-flex justify-content-between flex-wrap mb-3">
-                                        <strong>Precio final</strong>
-                                        <strong class="pb-3">$6.564</strong>
-                                        <button type="button" class="btn btn-primary active m-auto rounded-pill w-75">Comprar</button>
-                                    </div>
-                                    <div class="card-footer d-flex flex-column p-4 align-items-start">
-                                        <small>¡Hasta en 50 cuotas!</small>
-                                        <small><a href="#">Ver Bancos y Tarjetas</a></small>
-                                    </div>
-                                </div>
+                            <div class="price-body">
+                                <p>
+                                    <small>1 Adulto</small>
+                                    <small>$ 5.029</small>
+                                </p>
+                                <p>
+                                    <small>Imp. y tasas</small>
+                                    <small>$998</small>
+                                </p>
+                                <p>
+                                    <small>Cargos</small>
+                                    <small>$537</small>
+                                </p>
                             </div>
+                            <hr />
+                            <div class="final-price">
+                                <strong>Precio final</strong>
+                                <strong>$6.564</strong>
+                            </div>
+                            <div class="CTA">
+                                <button type="button" class="bg-primary">¡Comprar Ya!</button>
+                            </div>
+                            <hr />
+                            <div class="price-footer">
+                                <small>¡Hasta en 50 cuotas!</small>
+                                <small><a href="#">Ver Bancos y Tarjetas</a></small>
+                            </div>
+                        </div>
+                        <div class="company">
+                            <div class="company-logo">
+                                <img src="./images/iberia.png" alt="Iberia">
+                            </div>
+                        </div>
+                        <div class="departure-hour">
+                            <strong>19:27</strong>
+                            <small>Directo</small>
+                        </div>
+                        <div class="destination-hour">
+                            <strong>21:27</strong>
+                            <small>2 h</small>
+                            <i class="fas fa-suitcase-rolling"></i>
+                        </div>
+                        <div class="return">
+                            <i class="fas fa-plane"></i>
+                            <strong class="d-inline">VUELTA</strong>
+                            <small>lun. 27 sep. 2019</small>
+                        </div>
+                        <div class="departure-return">
+                            <strong>TUC</strong>
+                            <small>SM de Tucumán</small>
+                        </div>
+                        <div class="destination-return">
+                            <strong>AEP</strong>
+                            <small>Buenos Aires Equipaje</small>
+                        </div>
+                        <div class="company company-two">
+                            <div class="company-logo">
+                                <img src="./images/iberia.png" alt="Iberia">
+                            </div>
+                        </div>
+                        <div class="departure-hour departure-hour-return">
+                            <strong>19:27</strong>
+                            <small>Directo</small>
+                        </div>
+                        <div class="destination-details">
+                            <strong>21:27</strong>
+                            <small>2 h</small>
+                            <i class="fas fa-suitcase-rolling"></i>
+                        </div>
+                        <div class="ticket-footer">
+                            <div class="bg-primary">Vuelo Más conveniente</div>
+
                         </div>
                     </div>
                 </div>
