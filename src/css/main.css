@@ -265,8 +265,35 @@ footer .form-image-container img {
     font-size: 12px;
 }
 
-.ticket {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(7, auto);
+/*C A R D   R E S U L T S*/
+
+.ticket-container {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+.ticket-container i {
+    color: white;
+}
+
+.bg-none {
+    background: transparent !important;
+}
+
+.bg-column {
+    background: rgba(110,110,110,.4);
+    border-radius: 0px 10px 10px 0px;
+    background-clip: padding-box;
+}
+
+.card-border {
+    border-left: 1px solid white;
+}
+
+.company-logo {
+    width: 100px;
+}
+
+.company-logo img {
+    max-width: 100%;
 }
