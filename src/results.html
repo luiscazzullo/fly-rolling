@@ -118,52 +118,51 @@
         <div class="row">
         <!-- ASIDE -->
             <!-- FILTRO DE BÚSQUEDA -->
-            <div class="col-3">
-                <div>
-                    <div class="card bg-primary form-text">
-                        <div class="card-header border-0 p-2">
-                            <h4 class="m-0">Vuelos</h4>
+            <div class="col-xl-3 col-md-3 col-sm-12 col-12">
+                <div class="card form-text aside-color mb-3">
+                    <div class="card-header border-0 p-2">
+                        <h4 class="m-0 text-center">Vuelos</h4>
+                    </div>
+                    <div class="card-body p-2">
+                        <div class="form-check">
+                            <label class="form-check-label d-inline-block d-md-inline-block d-sm-inline-block mr-4">
+                                <input type="radio" class="form-check-input" name="optradio">Ida y Vuelta
+                            </label>
+                            <label class="form-check-label d-inline-block d-md-inline-block d-sm-inline-block mr-4">
+                                <input type="radio" class="form-check-input" name="optradio">Solo Ida
+                            </label>
+                            <label class="form-check-label d-xl-block d-md-inline-block d-sm-inline-block d-inline-block mr-4">
+                                <input type="radio" class="form-check-input" name="optradio">Multidestino
+                            </label>
                         </div>
-                        <div class="card-body p-1">
-                            <div class="form-check">
+                    </div>
+                    <div class="card-body p-2">
+                        <form action="" class="form-text-2">
+                            <div class="form-group">
+                                <label for="departure">Origen:</label>
+                                <input type="text" class="form-control" id="departure" placeholder="¿Donde quieres ir?">
+                            </div>
+                            <div class="form-group">
+                                <label for="destination">Destino:</label>
+                                <input type="text" class="form-control" id="destination" placeholder="¿Dónde quieres ir?">
+                            </div>
+                            <div class="form-group">
+                                <label for="one-way">Fecha</label>
+                                <input type="date" class="form-control w-100" id="one-way">
+                                <label for="destination">31 Días</label>
+                                <input type="date" class="form-control w-100" id="destination">
+                            </div>
+                            <div class="form-group form-check form-text">
                                 <label class="form-check-label">
-                                  <input type="radio" class="form-check-input" name="optradio">Ida y Vuelta
-                                </label>
-                              </div>
-                              <div class="form-check">
-                                <label class="form-check-label">
-                                  <input type="radio" class="form-check-input" name="optradio">Solo Ida
-                                </label>
-                              </div>
-                              <div class="form-check">
-                                <label class="form-check-label">
-                                  <input type="radio" class="form-check-input" name="optradio">Multidestino
-                                </label>
-                              </div>
-                        </div>
-                        <div class="card-body p-2">
-                            <form action="" class="form-text-2">
-                                <div class="form-group">
-                                    <label for="departure">Origen:</label>
-                                    <input type="text" class="form-control" id="departure" placeholder="¿Donde quieres ir?">
-                                </div>
-                                <div class="form-group">
-                                    <label for="destination">Destino:</label>
-                                    <input type="text" class="form-control" id="destination" placeholder="¿Dónde quieres ir?">
-                                </div>
-                                <div class="form-group">
-                                    <label for="one-way">Fecha</label>
-                                    <input type="date" class="form-control w-75" id="one-way">
-                                    <label for="destination">31 Días</label>
-                                    <input type="date" class="form-control w-75" id="destination">
-                                </div>
-                                <div class="form-group form-check form-text">
-                                    <label class="form-check-label">
-                                    <input class="form-check-input" type="checkbox" name="remember">Todavía no he decidido la fecha
-
-                                </div>
-                            </form>
-                        </div>
+                                <input class="form-check-input" type="checkbox" name="remember">Todavía no he decidido la fecha
+                            </div>
+                            <div class="card-footer border-0">
+                                <button class="btn btn-primary m-auto w-100">
+                                    <i class="fas fa-search"></i>
+                                    Buscar
+                                </button>
+                            </div>
+                        </form>
                     </div>
                 </div>        
             <!-- END FILTRO DE BÚSQUEDA -->
@@ -180,7 +179,7 @@
                 <!-- F I L T E R S -->
                 <div class="col-12">
                     <div class="filters-container d-flex justify-content-start align-items-center">
-                        <h5 class="mr-3">Filtros</h5>
+                        <h5 class="mr-3 mb-0">Filtros</h5>
                         <ul class="nav nav-pills">
                             <li class="nav-item bg-primary rounded-pill mr-3">
                                 <a class="nav-link" href="#">Vuelos Directos</a>
@@ -298,10 +297,54 @@
                     </div>
                 </div>
                 <!-- E N D   T I C K E T -->
-
             </div>
         <!-- E N D   C A R D   C O N T A I N E R -->
         </div>
+        <div class="row"><!-- A C C O R D I O N -->
+            <div class="col-xl-3 col-md-3 col-sm-12 col-12">
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header">
+                        <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                            Escalas
+                        </a>
+                        </div>
+                        <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                        <div class="card-body">
+                            Lorem ipsum..
+                        </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card-header">
+                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                            Equipaje
+                        </a>
+                        </div>
+                        <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                            Lorem ipsum..
+                        </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card-header">
+                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                            Precio
+                        </a>
+                        </div>
+                        <div id="collapseThree" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                            Lorem ipsum..
+                        </div>
+                        </div>
+                    </div>
+                    
+                    </div>
+            </div>
+        </div> <!-- A C C O R D I O N -->
     </div><!-- END MAIN CONTAINER -->
         <!-- F O O T E R -->
     <footer class="mt-4 p-2 bg_footer">

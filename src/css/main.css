@@ -255,7 +255,7 @@ footer .form-image-container img {
     border-left: 20px solid #F4DF27;
     border-top: 15px solid transparent;
     border-bottom: 0px solid transparent;
-    bottom: -2px;
+    bottom: -3px;
 }
 
 /* F I L T E R S   C O N T A I N E R S*/
@@ -288,6 +288,7 @@ footer .form-image-container img {
 .price-container {
     border-left: 1px solid white;
     grid-row-end: span 5;
+    padding: 5px;
 }
 
 .price-header {
@@ -382,6 +383,9 @@ footer .form-image-container img {
     border-radius: 15px;
 }
 
+.aside-color {
+    background-color: #304848 !important;
+}
 
 .form-text {
     font-size: .8em;
@@ -395,11 +399,13 @@ footer .form-image-container img {
 
 @media (max-width: 768px) {
     .ribbon::after, .ribbon::before {
-        right: -19px;
+        right: -20px;
     }
-}
 
-@media (max-width: 576px) {
+    .ribbon::after {
+        bottom: -2px;
+    }
+
     .ticket-container {
         grid-template-columns: 33.3% 33.3% 33.3%;
         grid-template-rows: repeat(, auto);
@@ -476,6 +482,10 @@ footer .form-image-container img {
     .price-header {
         align-items: flex-start;
     }
+
+}
+
+@media (max-width: 576px) {
 
     .ribbon::after, .ribbon::before {
         right: -19px;
