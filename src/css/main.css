@@ -178,7 +178,11 @@ nav .nav-item a:hover{
 }
 .card-body .guide{
     color:#304848;
-    size:3px;
+    size:8px;
+}
+.card-guide{
+    height:300px;
+    width: 270px;
 }
 
 /*END DE VIAJE*/
