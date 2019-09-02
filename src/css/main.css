@@ -383,6 +383,16 @@ footer .form-image-container img {
 }
 
 
+.form-text {
+    font-size: .8em;
+    color: white;
+}
+
+.form-text-2 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
 @media (max-width: 768px) {
     .ribbon::after, .ribbon::before {
         right: -19px;
@@ -401,6 +411,7 @@ footer .form-image-container img {
                              "departure-return departure-hour-return destination-return"
                              "ticket-footer ticket-footer ."
                              "price price price";
+        grid-gap: 5px 0;
     }
 
     .one-way {

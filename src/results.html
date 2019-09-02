@@ -118,15 +118,50 @@
         <div class="row">
         <!-- ASIDE -->
             <!-- FILTRO DE BÚSQUEDA -->
-            <div class="col-2">
+            <div class="col-3">
                 <div>
-                    <div class="card bg-primary">
-                        <div class="card-header border-0">
-                            <h4>Vuelos</h4>
+                    <div class="card bg-primary form-text">
+                        <div class="card-header border-0 p-2">
+                            <h4 class="m-0">Vuelos</h4>
                         </div>
-                        <div class="card-body">
-                            <form action="">
+                        <div class="card-body p-1">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                  <input type="radio" class="form-check-input" name="optradio">Ida y Vuelta
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <label class="form-check-label">
+                                  <input type="radio" class="form-check-input" name="optradio">Solo Ida
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <label class="form-check-label">
+                                  <input type="radio" class="form-check-input" name="optradio">Multidestino
+                                </label>
+                              </div>
+                        </div>
+                        <div class="card-body p-2">
+                            <form action="" class="form-text-2">
+                                <div class="form-group">
+                                    <label for="departure">Origen:</label>
+                                    <input type="text" class="form-control" id="departure" placeholder="¿Donde quieres ir?">
+                                </div>
+                                <div class="form-group">
+                                    <label for="destination">Destino:</label>
+                                    <input type="text" class="form-control" id="destination" placeholder="¿Dónde quieres ir?">
+                                </div>
+                                <div class="form-group">
+                                    <label for="one-way">Fecha</label>
+                                    <input type="date" class="form-control w-75" id="one-way">
+                                    <label for="destination">31 Días</label>
+                                    <input type="date" class="form-control w-75" id="destination">
+                                </div>
+                                <div class="form-group form-check form-text">
+                                    <label class="form-check-label">
+                                    <input class="form-check-input" type="checkbox" name="remember">Todavía no he decidido la fecha
 
+                                </div>
                             </form>
                         </div>
                     </div>
@@ -141,7 +176,7 @@
         <!-- END ASIDE -->
 
         <!-- C A R D   C O N T A I N E R -->
-            <div class="col-10">
+            <div class="col-9">
                 <!-- F I L T E R S -->
                 <div class="col-12">
                     <div class="filters-container d-flex justify-content-start align-items-center">
@@ -270,74 +305,75 @@
     </div><!-- END MAIN CONTAINER -->
         <!-- F O O T E R -->
     <footer class="mt-4 p-2 bg_footer">
-            <div class="row">
-                <div class="col-12">
-                    <h4 class="text-center">
-                        ¡Suscribite para ofertas Exclusivas!
-                    </h4>
-                </div>
-                
-                <form class="form-inline mx-auto">
-                    <div class="form-image-container m-3">
-                        <img src="./images/form_image.png" alt="Form Image" />
+        <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h4 class="text-center">
+                            ¡Suscribite para ofertas Exclusivas!
+                        </h4>
                     </div>
-                    <div class="form-group m-3">
-                        <input type="email" class="form-control input-size rounded-sm" id="usr" placeholder="Escribe tu email">
-                    </div>
-                    <div class="form-group m-3">
-                        <input type="button" class="btn btn-info btn m-3" value="Suscribite">
-                    </div>
-                </form>
-            </div>
-            <hr class="m-0"/>
-    
-            <div class="row justify-content-around align-items-center my-2">
-                <div class="col-md-4">
-                    <div class="social-media-container d-flex justify-content-center">
-                        <div class="facebook mx-2">
-                            <a href="#"><img src="./images/facebook.png" alt="Facebook" /></a>
+                    
+                    <form class="form-inline mx-auto">
+                        <div class="form-image-container m-3">
+                            <img src="./images/form_image.png" alt="Form Image" />
                         </div>
-                        <div class="twitter mx-2">
-                            <a href="#"><img src="./images/twitter.png" alt="Twitter" /></a>
+                        <div class="form-group m-3">
+                            <input type="email" class="form-control input-size rounded-sm" id="usr" placeholder="Escribe tu email">
                         </div>
-                        <div class="instagram mx-2">
-                            <a href="#"><img src="./images/instagram.png" alt="" /></a>
+                        <div class="form-group m-3">
+                            <input type="button" class="btn btn-info btn m-3" value="Suscribite">
+                        </div>
+                    </form>
+                </div>
+                <hr class="m-0"/>
+        
+                <div class="row justify-content-around align-items-center my-2">
+                    <div class="col-md-4">
+                        <div class="social-media-container d-flex justify-content-center">
+                            <div class="facebook mx-2">
+                                <a href="#"><img src="./images/facebook.png" alt="Facebook" /></a>
+                            </div>
+                            <div class="twitter mx-2">
+                                <a href="#"><img src="./images/twitter.png" alt="Twitter" /></a>
+                            </div>
+                            <div class="instagram mx-2">
+                                <a href="#"><img src="./images/instagram.png" alt="" /></a>
+                            </div>
                         </div>
                     </div>
+        
+                    <div class="col-md-4">
+                        <p class="text-center my-2"><span class="text-dark">Para ventas:</span> 0810 810 9994</p>
+                    </div>
+        
+                    <div class="col-md-4">
+                        <p class="text-center my-2"><span class="text-dark">Posventas</span> + 54 11 5173 3543</p>
+                    </div>
+        
                 </div>
-    
-                <div class="col-md-4">
-                    <p class="text-center my-2"><span class="text-dark">Para ventas:</span> 0810 810 9994</p>
+                <hr class="m-0"/>
+        
+                <div class="row justify-content-around p-4 text-center">
+                    <div class="col-md-4">
+                        <h6>¿Quiénes somos?</h6>
+                        <a class="link-decoration" href="#">Institucional</a><br/>
+                        <a class="link-decoration" href="#">Nuestros empleados</a><br/>
+                        <a class="link-decoration" href="#">¡Celebra 20 años!</a>
+                    </div>
+                    <div class="col-md-4 d-md-block d-sm-none d-none">
+                        <h6>Nuestros servicios</h6>
+                        <a class="link-decoration" href="#">Hoteles</a><br/>
+                        <a class="link-decoration" href="#">Actividades</a><br/>
+                        <a class="link-decoration" href="#">Alquiler</a>
+                    </div>
+                    <div class="col-md-4 d-md-block d-sm-none d-none">
+                        <h6>Contacto</h6>
+                        <a class="link-decoration" href="#">Teléfono</a><br/>
+                        <a class="link-decoration" href="#">Dirección</a><br/>
+                        <a class="link-decoration" href="#">Email</a>
+                    </div>
                 </div>
-    
-                <div class="col-md-4">
-                    <p class="text-center my-2"><span class="text-dark">Posventas</span> + 54 11 5173 3543</p>
-                </div>
-    
-            </div>
-            <hr class="m-0"/>
-    
-            <div class="row justify-content-around p-4 text-center">
-                <div class="col-md-4">
-                    <h6>¿Quiénes somos?</h6>
-                    <a class="link-decoration" href="#">Institucional</a><br/>
-                    <a class="link-decoration" href="#">Nuestros empleados</a><br/>
-                    <a class="link-decoration" href="#">¡Celebra 20 años!</a>
-                </div>
-                <div class="col-md-4 d-md-block d-sm-none d-none">
-                    <h6>Nuestros servicios</h6>
-                    <a class="link-decoration" href="#">Hoteles</a><br/>
-                    <a class="link-decoration" href="#">Actividades</a><br/>
-                    <a class="link-decoration" href="#">Alquiler</a>
-                </div>
-                <div class="col-md-4 d-md-block d-sm-none d-none">
-                    <h6>Contacto</h6>
-                    <a class="link-decoration" href="#">Teléfono</a><br/>
-                    <a class="link-decoration" href="#">Dirección</a><br/>
-                    <a class="link-decoration" href="#">Email</a>
-                </div>
-            </div>
-    
+        </div>
     </footer>
         <!-- END FOOTER -->
     <script src="./js/results.js"></script>
