@@ -287,5 +287,30 @@ footer .form-image-container img {
     border-bottom: 0px solid transparent;
     bottom: -2px;
 }
-
+/**Primary CARD**/
+.cardprimary{
+   height:445.656px;
+}
+.cardprimary img{
+    height:179px;
+    width:100%;
+}
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.6s ease;
+}
+.inner:hover img{
+    transform: scale(1.5);
+}
+/**End PRIMARY CARD**/
+/**secondary guide**/
+.secondaryguide a h5{
+    color:#304860;
+}
+.secondaryguide a:hover{
+    text-decoration: none;
+}
+/**END SECONDARY GUIDE**/
 
