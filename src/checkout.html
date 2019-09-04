@@ -68,7 +68,7 @@
                 </div>
                 <div class="card text-white bg-primary mb-3" >
                     <div class="card-body">
-                        <h5 class="card-title border-dark">Cómo querés pagar</h5>
+                        <h5 class="card-title border-dark">¿Cómo querés pagar?</h5>
                         <h6><a href="">Ver condiciones</a></h6>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
@@ -89,54 +89,6 @@
                     <div class="card-body">
                         <h5 class="card-title border-dark">Selecciona tu tarjeta</h5>
                         <h6><a href="">Ver condiciones</a></h6>
-                        <button type="button" class="btn btn-light btn-lg">Seleccionar tarjeta</button>                           
-                    </div>
-                </div>                
-                <div class="card text-white bg-primary mb-3" >
-                    <div class="card-body">
-                        <form>
-                            <div class="form-group">
-                                <label for="exampleFormControlInput1">Nombre</label>
-                                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Como figura en el documento de viaje">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleFormControlInput1">Apellido</label>
-                                <input type="lastname" class="form-control" id="exampleFormControlInput1" placeholder="Como figura en el documento de viaje"  data-toggle="popover" data-trigger="click"
-                                data-content="testtttt">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleFormControlSelect1">País de residencia</label>
-                                <select class="form-control" id="exampleFormControlSelect1">
-                                <option>Argentina</option>
-                                <option>Brasil</option>
-                                <option>Chile</option>
-                                <option>Colombia</option>
-                                <option>Ecuador</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                    
-                                    <label for="exampleFormControlSelect1">Tipo y número de documento</label>
-                                <div class="row">
-                                    <div class="col-3">
-                                        <select class="form-control" id="exampleFormControlSelect1">
-                                        <option>DNI</option>
-                                        <option>Pasaporte</option>                                                  
-                                        </select>
-                                    </div>
-                                    <div class="col-6">
-                                        <input type="text" class="form-control" id="exampleFormControlInput1"  data-toggle="popover" data-trigger="click"
-                                        data-content="Dato obligatorio.">
-                                    </div>
-                                </div>
-                            </div>      
-                        </form>                         
-                    </div>
-                </div>
-                <div class="card text-white bg-primary mb-3" >
-                    <div class="card-body">
-                        <h5 class="card-title border-dark">Selecciona tu tarjeta</h5>
-                        <h6><a href="">Ver condiciones</a></h6>
                         <button type="button" class="btn btn-light btn-lg" data-toggle="modal" data-target="#exampleModalLong">Seleccionar tarjeta</button>
                         <div class="modal fade " id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                             <div class="modal-dialog" role="document">
@@ -148,13 +100,13 @@
                                         </button>
                                     </div>
                                     <div class="modal-body a">
-                                            <a href="#">
+                                            <a  class="textdec" href="#">
                                             <div class="row  align-items-center">
                                                 <div class="col-4 ">
                                                     <img src="https://media.staticontent.com/media/pictures/a87ec60b-5a7a-46c6-a233-6b05ec367011/" alt="">                                                
                                                 </div>
                                                 <div class="col-8">                                                
-                                                   <h5 class="text-dark"> 12 y 18 cuotas sin interés</h5>
+                                                    <h5 class="text-dark"> 12 y 18 cuotas sin interés</h5>
                                                 </div>
                                             </div>
                                             </a>
@@ -207,13 +159,81 @@
                             </div>
                         </div>                         
                     </div>
-                </div> 
-                <div></div>
-                <div></div>
+                </div>               
+                <div class="card text-white bg-primary mb-3" >
+                    <div class="card-body">
+                        <h5>¿Quiénes viajan?</h5>
+                        <form>
+                            <div class="form-group col-8">
+                                <label for="exampleFormControlInput1">Nombre</label>
+                                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Como figura en el documento de viaje">
+                            </div>
+                            <div class="form-group col-8">
+                                <label for="exampleFormControlInput1">Apellido</label>
+                                <input type="lastname" class="form-control" id="exampleFormControlInput1" placeholder="Como figura en el documento de viaje"  data-toggle="popover" data-trigger="click"
+                                data-content="testtttt">
+                            </div>
+                            <div class="form-group col-8">
+                                <label for="exampleFormControlSelect1">País de residencia</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                <option>Argentina</option>
+                                <option>Brasil</option>
+                                <option>Chile</option>
+                                <option>Colombia</option>
+                                <option>Ecuador</option>
+                                </select>
+                            </div>
+                            <div class="form-group ml-3">                                    
+                                    <label for="exampleFormControlSelect1">Tipo y número de documento</label>
+                                <div class="row">
+                                    <div class="col-3">
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                        <option>DNI</option>
+                                        <option>Pasaporte</option>                                                  
+                                        </select>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" id="exampleFormControlInput1"  data-toggle="popover" data-trigger="click"
+                                        data-content="Dato obligatorio.">
+                                    </div>
+                                </div>
+                            </div>      
+                        </form>                         
+                    </div>
+                </div>                 
+                <div class="card text-white bg-primary mb-3">
+                    <div id="accordion">
+                        <div class="card text-white bg-primary mb-3">
+                            <div class="card-header">                            
+                            <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                                <p>No incluye equipaje</p>                                                 
+                            </a>
+                            </div>
+                            <div id="collapseOne" class="collapse show bg-light" data-parent="#accordion">
+                            <div class="card-body text-dark">
+                                Lorem ipsum..
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card text-white bg-primary mb-3" >
+                    <h5>¿A dónde enviamos tus vouchers?</h5>
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu email de contacto">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Confirmá tu Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu email">                            
+                        </div>                        
+                    </form>
+                </div>
                 <div></div>
                 <div></div>
                 <input type="checkbox" name="" id="">
-                <button type="submit" class="btn btn-primary">Comprar</button>
+                <button type="submit" class="btn btn-primary mb-4">Comprar</button>
             </div>
             <div class="col-4 bg-light">
                 <h2>detalle de pago</h2>
