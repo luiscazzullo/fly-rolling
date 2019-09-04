@@ -7,8 +7,322 @@
     <title>Fly Rolling</title>
     <link rel="stylesheet" href="./css/main.css"> <!-- Main CSS -->
     <link href="https://fonts.googleapis.com/css?family=Bitter|Noto+Serif&display=swap" rel="stylesheet"><!-- Google Fonts -->
+    <script src="https://kit.fontawesome.com/4df2f2241d.js"></script><!-- Font Awesome -->
 </head>
-<body>
+<body class="bg_main">
+    <!-- HEADER -->
+    <div class="bg_navbar">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-sm-1 col-md-3 ">
+                    <nav class="navbar">
+                        <a class="navbar-brand navbar" href="#">
+                            <img src="./images/logo.png">
+                        </a>
+                    </nav>           
+                </div>
+               <div class="col-sm-11 col-md-9 ">
+                    <ul class="nav justify-content-end p-3">
+                        <li class="nav-item">
+                          <a class="nav-link active" href="index.html">
+                            <i class="fas fa-headphones"></i>
+                            <span>Para Ventas 0810 555 555</span> 
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                              <a class="nav-link active" href="login.html">
+                                <i class="fas fa-user"></i>
+                               <span>Iniciar Sesion</span> 
+                              </a>
+                            </li>
+                        <li class="nav-item">
+                              <a class="nav-link active" href="#">
+                                <i class="fas fa-suitcase-rolling"></i>
+                                <span>Mis Viajes</span> 
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">
+                                <i class="fas fa-question-circle"></i>
+                             <span> Ayuda</span>
+                          </a>
+                      </li>
+                    </ul>   
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END HEADER -->
+
+    <!-- PAY -->
+    <div class="container">
+        <div class="row justify-content-between pt-3">
+            <div class="col-6 bg-light">
+                <h5><a href="index.html">Volver a la página anterior</a></h5>
+                <h2>ya casi estás</h2>
+                <div class="card text-white bg-primary mb-3" >
+                    <div class="card-body">
+                        <h5 class="card-title">Apurate</h5>
+                        <p class="card-text">Últimos 6 lugares disponibles para este Vuelo. ¡No te lo pierdas! Confirma ahora tu reserva.</p>
+                    </div>
+                </div>
+                <div class="card text-white bg-primary mb-3" >
+                    <div class="card-body">
+                        <h5 class="card-title border-dark">¿Cómo querés pagar?</h5>
+                        <h6><a href="">Ver condiciones</a></h6>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                            <label class="form-check-label" for="exampleRadios1">
+                                Tarjeta de crédito
+                            </label>
+                        </div>
+                        <hr>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                            <label class="form-check-label" for="exampleRadios2">
+                                Tarjeta de débito
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="card text-white bg-primary mb-3" >
+                    <div class="card-body">
+                        <h5 class="card-title border-dark">Selecciona tu tarjeta</h5>
+                        <h6><a href="">Ver condiciones</a></h6>
+                        <button type="button" class="btn btn-light btn-lg" data-toggle="modal" data-target="#exampleModalLong">Seleccionar tarjeta</button>
+                        <div class="modal fade " id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header bg-primary">
+                                        <h5 class="modal-title" id="exampleModalLongTitle">Selecciona tu banco</h5>
+                                        <button type="button" class="close " data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body a">
+                                            <a  class="textdec" href="#">
+                                            <div class="row  align-items-center">
+                                                <div class="col-4 ">
+                                                    <img src="https://media.staticontent.com/media/pictures/a87ec60b-5a7a-46c6-a233-6b05ec367011/" alt="">                                                
+                                                </div>
+                                                <div class="col-8">                                                
+                                                    <h5 class="text-dark"> 12 y 18 cuotas sin interés</h5>
+                                                </div>
+                                            </div>
+                                            </a>
+                                            <hr>
+                                            <a href="">
+                                            <div class="row  align-items-center">
+                                                <div class="col-4 ">
+                                                    <img src="https://ar.staticontent.com/oscard/latest/132/NAC.png?Wednesday" alt="">                                             
+                                                </div>
+                                                <div class="col-8">                                                
+                                                    <h5 class="text-dark"> 12 y 18 cuotas sin interés</h5>
+                                                </div>
+                                            </div>
+                                            </a>
+                                            <hr>
+                                            <a href="#">                                            
+                                            <div class="row  align-items-center">
+                                                <div class="col-4 ">
+                                                    <img src="https://ar.staticontent.com/oscard/latest/132/CA.png?Wednesday" alt="">                                                
+                                                </div>
+                                                <div class="col-8">                                                
+                                                    <h5 class="text-dark"> 12 y 18 cuotas sin interés</h5>
+                                                </div>
+                                            </div>
+                                            </a>
+                                            <hr>
+                                            <a href="">
+                                            <div class="row  align-items-center">
+                                                <div class="col-4 ">
+                                                    <img src="https://ar.staticontent.com/oscard/latest/132/ICBC.png?Wednesday" alt="">                                                
+                                                </div>
+                                                <div class="col-8">                                                
+                                                    <h5 class="text-dark"> 12 y 18 cuotas sin interés</h5>
+                                                </div>
+                                            </div>
+                                            </a>
+                                            <hr>
+                                            <a href="">
+                                            <div class="row  align-items-center">
+                                                <div class="col-4 ">
+                                                    <img src="https://ar.staticontent.com/oscard/latest/132/MACS.png?Wednesday" alt="">                                               
+                                                </div>
+                                                <div class="col-8">                                                
+                                                    <h5 class="text-dark"> 12 y 18 cuotas sin interés</h5>
+                                                </div>
+                                            </div>  
+                                            </a>                                          
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                         
+                    </div>
+                </div>               
+                <div class="card text-white bg-primary mb-3" >
+                    <div class="card-body">
+                        <h5>¿Quiénes viajan?</h5>
+                        <form>
+                            <div class="form-group col-8">
+                                <label for="exampleFormControlInput1">Nombre</label>
+                                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Como figura en el documento de viaje">
+                            </div>
+                            <div class="form-group col-8">
+                                <label for="exampleFormControlInput1">Apellido</label>
+                                <input type="lastname" class="form-control" id="exampleFormControlInput1" placeholder="Como figura en el documento de viaje"  data-toggle="popover" data-trigger="click"
+                                data-content="testtttt">
+                            </div>
+                            <div class="form-group col-8">
+                                <label for="exampleFormControlSelect1">País de residencia</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                <option>Argentina</option>
+                                <option>Brasil</option>
+                                <option>Chile</option>
+                                <option>Colombia</option>
+                                <option>Ecuador</option>
+                                </select>
+                            </div>
+                            <div class="form-group ml-3">                                    
+                                    <label for="exampleFormControlSelect1">Tipo y número de documento</label>
+                                <div class="row">
+                                    <div class="col-3">
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                        <option>DNI</option>
+                                        <option>Pasaporte</option>                                                  
+                                        </select>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" id="exampleFormControlInput1"  data-toggle="popover" data-trigger="click"
+                                        data-content="Dato obligatorio.">
+                                    </div>
+                                </div>
+                            </div>      
+                        </form>                         
+                    </div>
+                </div>                 
+                <div class="card text-white bg-primary mb-3">
+                    <div id="accordion">
+                        <div class="card text-white bg-primary mb-3">
+                            <div class="card-header">                            
+                            <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                                <p>No incluye equipaje</p>                                                 
+                            </a>
+                            </div>
+                            <div id="collapseOne" class="collapse show bg-light" data-parent="#accordion">
+                            <div class="card-body text-dark">
+                                Lorem ipsum..
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card text-white bg-primary mb-3" >
+                    <h5>¿A dónde enviamos tus vouchers?</h5>
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu email de contacto">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Confirmá tu Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu email">                            
+                        </div>                        
+                    </form>
+                </div>
+                <div></div>
+                <div></div>
+                <input type="checkbox" name="" id="">
+                <button type="submit" class="btn btn-primary mb-4">Comprar</button>
+            </div>
+            <div class="col-4 bg-light">
+                <h2>detalle de pago</h2>
+                <div>total</div>
+                <h2>detalle de compra</h2>
+                <div>politica de cambios y cancelaciones</div>
+                <div>codigo de referencia</div>
+            </div>
+
+        </div>
+    </div>
+    <!-- END PAY -->
+
+
+
+    <!-- FOOTER -->
+
+    <footer class="mt-4 p-2 bg_footer">
+            <div class="row">
+                <div class="col-12">
+                    <h4 class="text-center">
+                        ¡Suscribite para ofertas Exclusivas!
+                    </h4>
+                </div>
+                
+                <form class="form-inline mx-auto">
+                    <div class="form-image-container m-3">
+                        <img src="./images/form_image.png" alt="Form Image" />
+                    </div>
+                    <div class="form-group m-3">
+                        <input type="email" class="form-control input-size rounded-sm" id="usr" placeholder="Escribe tu email">
+                    </div>
+                    <div class="form-group m-3">
+                        <input type="button" class="btn btn-info btn m-3" value="Suscribite">
+                    </div>
+                </form>
+            </div>
+            <hr class="m-0"/>
+    
+            <div class="row justify-content-around align-items-center my-2">
+                <div class="col-md-4">
+                    <div class="social-media-container d-flex justify-content-center">
+                        <div class="facebook mx-2">
+                            <a href="#"><img src="./images/facebook.png" alt="Facebook" /></a>
+                        </div>
+                        <div class="twitter mx-2">
+                            <a href="#"><img src="./images/twitter.png" alt="Twitter" /></a>
+                        </div>
+                        <div class="instagram mx-2">
+                            <a href="#"><img src="./images/instagram.png" alt="" /></a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4">
+                    <p class="text-center my-2"><span class="text-dark">Para ventas:</span> 0810 810 9994</p>
+                </div>
+    
+                <div class="col-md-4">
+                    <p class="text-center my-2"><span class="text-dark">Posventas</span> + 54 11 5173 3543</p>
+                </div>
+    
+            </div>
+            <hr class="m-0"/>
+    
+            <div class="row justify-content-around p-4 text-center">
+                <div class="col-md-4">
+                    <h6>¿Quiénes somos?</h6>
+                    <a class="link-decoration" href="#">Institucional</a><br/>
+                    <a class="link-decoration" href="#">Nuestros empleados</a><br/>
+                    <a class="link-decoration" href="#">¡Celebra 20 años!</a>
+                </div>
+                <div class="col-md-4 d-md-block d-sm-none d-none">
+                    <h6>Nuestros servicios</h6>
+                    <a class="link-decoration" href="#">Hoteles</a><br/>
+                    <a class="link-decoration" href="#">Actividades</a><br/>
+                    <a class="link-decoration" href="#">Alquiler</a>
+                </div>
+                <div class="col-md-4 d-md-block d-sm-none d-none">
+                    <h6>Contacto</h6>
+                    <a class="link-decoration" href="#">Teléfono</a><br/>
+                    <a class="link-decoration" href="#">Dirección</a><br/>
+                    <a class="link-decoration" href="#">Email</a>
+                </div>
+            </div>
+    
+        </footer>
+    
+        <!-- END FOOTER -->
     
     <script src="./js/checkout.js"></script>
 </body>
