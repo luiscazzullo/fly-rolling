@@ -175,14 +175,14 @@ nav .nav-item a:hover{
 }
 .card1 .btn1 {
     margin:100px;
+    background: #304848;
 }
 .card-body .guide{
     color:#304848;
-    size:8px;
+    size:15px;
 }
 .card-guide{
     height:300px;
-    width: 270px;
 }
 
 /*END DE VIAJE*/
@@ -311,6 +311,9 @@ footer .form-image-container img {
 }
 .secondaryguide a:hover{
     text-decoration: none;
+}
+.cardsecondguide{
+    height:630px;
 }
 /**END SECONDARY GUIDE**/
 
