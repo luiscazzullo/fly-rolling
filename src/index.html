@@ -98,55 +98,57 @@
     </div>
     <!-- END MENU -->
     <!-- BUSCADOR -->
-    <div class="container-fluid img-buscador">
-            <div class="justify-content-center">
-                <br>
-                <h6>Vuelos</h6>
-                <div class="form-c">
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                    <label class="form-check-label" for="inlineRadio1">Ida y Vuelta</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                    <label class="form-check-label" for="inlineRadio2">Ida</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                    <label class="form-check-label" for="inlineRadio2">Multidestino</label>
-                </div>   
-                 </div> 
-                <div class="search">             
-                <div class="form-row">
-                     <div class="col-xs-12 col-6">
-                         <label for="disabledTextInput">Origen</label>    <i class="fas fa-paper-plane"></i>
-                         <input type="text" id="disabledTextInput" class="form-control" placeholder="Ingrese desde donde viaja">
-                     </div>
-                     <div class="col-xs-12 col-6">
-                         <label for="disabledTextInput">Destino</label>   <i class="fas fa-paper-plane"></i>    
-                         <input type="text" id="disabledTextInput" class="form-control" placeholder="Ingrese hacia donde viaja">
-                     </div>
-                     <br>
-                     <div class="col-xs-12 col-3">
-                         <label for="disabledTextInput">Fecha Partida</label>  <i class="far fa-calendar-alt"></i>
-                        <input type="date" id="disabledTextInput"  placeholder="Ida">
-                     </div>
-                     <div class="col-xs-12 col-3">
-                         <label for="disabledTextInput">Fecha Salida</label>   <i class="far fa-calendar-alt"></i>
-                         <input type="date"id="disabledTextInput"  placeholder="Vuelta">
-                     </div>
-                     <div class="col-xs-12 col-3">
-                         <label for="disabledTextInput">Cantidad de Pasajeros</label>  <i class="fas fa-users"></i>
-                         <input type="text" id="disabledTextInput" class="form-control"placeholder="Cantidad">
-                     </div>
-                     <div class="col-xs-12 col-mt-3">
-                         <button class="btn btn-primary">Buscar</button>
-                     </div>
+
+     <div class="container-fluid img-buscador">
+         <div class="justify-content-center">
+             <h6 class="text-body">Vuelos</h6>
+             <div class="text-body">
+                 <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                     <label class="form-check-label" for="inlineRadio1">Ida y Vuelta</label>
                  </div>
-            </div> 
-        </div>
+                 <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                     <label class="form-check-label" for="inlineRadio2">Ida</label>
+                 </div>
+                 <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                     <label class="form-check-label" for="inlineRadio2">Multidestino</label>
+                 </div>  
+            </div>
+         </div>
+         <div class="text-body">             
+             <div class="form-row">
+                 <div class="col-md-6 col-sm-6 col-xs-12">
+                     <label for="disabledTextInput">Origen</label>    <i class="fas fa-paper-plane"></i>
+                     <input type="text" id="disabledTextInput" class="form-control" placeholder="Ingrese desde donde viaja">
+                 </div>
+                 <div class="col-md-6 col-sm-6 col-xs-12">
+                     <label for="disabledTextInput">Destino</label>   <i class="fas fa-paper-plane"></i>    
+                     <input type="text" id="disabledTextInput" class="form-control" placeholder="Ingrese hacia donde viaja">
+                 </div>
+                 <div class="col-md-3 col-sm-6 col-xs-12">
+                     <label for="disabledTextInput">Fecha Partida</label>  <i class="far fa-calendar-alt"></i>
+                     <input type="date" id="disabledTextInput"  placeholder="Ida">
+                 </div>
+                 <div class="col-md-3 col-sm-6 col-xs-12">
+                     <label for="disabledTextInput">Fecha Salida</label>   <i class="far fa-calendar-alt"></i>
+                     <input type="date"id="disabledTextInput"  placeholder="Vuelta">
+                 </div>
+                 <div class="col-md-3 col-sm-6 col-xs-12">
+                     <label for="disabledTextInput">Cantidad de Pasajeros</label>  <i class="fas fa-users"></i>
+                     <input type="text" id="disabledTextInput" class="form-control"placeholder="Cantidad">
+                 </div>
+                 <div class="col-md-3 col-sm-6 col-xs-12">
+                     <button type="button" class="btn btn-info active m-4"><span class="spinner-border spinner-border-sm"></span> Buscar</button>
+                 </div>
+             </div>
+         </div>
      </div>
+
+                
     <!-- END BUSCADOR -->
+
     <div class="container"> <!-- MAIN CONTAINER -->
     <!-- PROMOCION DE TARJETAS -->
     <div class="row">
@@ -886,12 +888,55 @@
     </div>
     <!-- END QUINTA TARJETA -->
     <!-- COMENTARIOS DESTACADOS -->
-    <div class="row justify-content-center">
-        <div class="col-md-3"></div>
-        <div class="col-md-3"></div>
-        <div class="col-md-3"></div>
-        <div class="col-md-3"></div>
-    </div>
+     <div class="row">
+             <div class="col-md-3 col-sm-6 col-xs-12">
+                     <div class="card card-up">
+                         <div class="card-body text-center">
+                             <h6 class="text-info"><i class="fas fa-star"></i>  TRUSTPILOT</h6>
+                             <br>
+                             <div class="text-center bg-info"> <a href="https://es.trustpilot.com/review/despegar.com.ar"></a>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                             </div>
+                             <br>
+                            <p class="text-dark small">Trustscore 9.4 | 24608 reviews</p>
+                         </div>
+                     </div>
+             </div>
+   
+             <div class="col-md-3 col-sm-6 col-xs-12">
+                 <div class="card card-up">
+                     <div class="card-body">
+                        <h6 class="text-dark"><i class="fas fa-user"></i>  Romina Farias</h6>
+                        <p class="text-muted small">Hace 17 horas</p>   
+                        <p class="text-dark small font-italic">Es la cuarta o quinta vez que contrato, hasta ahora han cumplido en todo lo contratado, sin sorpresas hasta el momento. Lo recomiendo.</p>
+                     </div>
+                 </div>
+             </div>
+   
+             <div class="col-md-3 col-sm-6 col-xs-12">
+                 <div class="card card-up">
+                     <div class="card-body">
+                         <h6 class="text-dark"><i class="fas fa-user"></i>  Paolo Ruiz</h6>
+                        <p class="text-muted small">Hace 19 horas</p>  
+                        <p class="text-dark small font-italic">Muy confiable, cumple todo, es fácil contratar y encontrar lo que buscas, con muchas opciones de pago</p>
+                     </div>
+                 </div>
+             </div>
+   
+             <div class="col-md-3 col-sm-6 col-xs-12">
+                 <div class="card card-up">
+                     <div class="card-body">
+                        <h6 class="text-dark"><i class="fas fa-user"></i>  Ramiro Heluan</h6>
+                        <p class="text-muted small">Hace 23 horas</p>   
+                        <p class="text-dark small font-italic">Por suerte me ofrecieron un paquete tal cual lo necesitaba! Gracias por la atención de la asesora de ventas Betiana que contesto todas mis dudas. Gracias</p>
+                     </div>
+                 </div>
+             </div>
+     </div>
     <!-- END COMENTARIOS DESTACADOS -->
     </div><!-- END MAIN CONTAINER -->
 <div class="bg_navbar">
