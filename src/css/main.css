@@ -142,21 +142,6 @@ p, a, strong, span, li, small {
     height: 300px;
 } 
 
-.search {
-    background: white rgb(240,240,240);
-    color:white;
-    justify-content: center;
-}
-.form-c {
-    color:white;
-    background: #000;
-    opacity: 0.5;
-    position: absolute;
-    height: 45px;
-    width: 45px;
-    border-radius: 50%;
-}
-
 /*FOOTER*/
 
 footer .form-image-container {
@@ -491,4 +476,9 @@ footer .form-image-container img {
         right: -19px;
     }
 
+}
+/**TARJETAS DE COMENTARIOS**/
+.card-up {
+    height: 320px;
+    
 }
