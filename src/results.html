@@ -89,19 +89,17 @@
         <!-- ALERT -->
         <div class="row">
             <div class="col-12">
-                <div class="container">
-                        <div class="alert alert-bg d-flex justify-content-between w-100 m-3">
-                            <div class="img-container d-md-block d-sm-none">
-                                <img src="./images/departures.png" alt="Vuelos">
-                            </div>
-                            <div class="alert-text">
-                                <h6>¡Aprovechá Nuestras Ofertas!</h6>
-                                <p>Tenés hasta 12 cuotas sin interés en tu próximo vuelo</p>
-                            </div>
-                            <div class="ribbon-container">
-                                <strong class="ribbon">Descuentos</strong>
-                            </div>
-                        </div>
+                <div class="alert alert-bg d-flex justify-content-between w-100 my-3">
+                    <div class="img-container d-md-block d-sm-none">
+                        <img src="./images/departures.png" alt="Vuelos">
+                    </div>
+                    <div class="alert-text">
+                        <h6>¡Aprovechá Nuestras Ofertas!</h6>
+                        <p>Tenés hasta 12 cuotas sin interés en tu próximo vuelo</p>
+                    </div>
+                    <div class="ribbon-container">
+                        <strong class="ribbon">Descuentos</strong>
+                    </div>
                 </div>
             </div>
         </div>
@@ -169,11 +167,13 @@
             <!-- OTROS FILTROS -->
                 <div>
 
+                </div>
+            <!-- END OTROS FILTROS -->
             </div>
         <!-- END ASIDE -->
 
         <!-- C A R D   C O N T A I N E R -->
-            <div class="col-9">
+            <div class="col-9 mx-auto">
                 <!-- F I L T E R S -->
                 <div class="col-12">
                     <div class="filters-container d-flex justify-content-start align-items-center">
@@ -201,25 +201,25 @@
 
                 <div class="col-12">
                     <div class="ticket-container my-4">
-                        <div class="one-way">
+                        <div class="one-way m-2">
                             <i class="fas fa-plane"></i>
                             <strong class="d-inline">IDA</strong>
                             <small>lun. 9 sep. 2019</small>
                         </div>
-                        <div class="departure">
+                        <div class="departure m-2">
                             <strong>AEP</strong>
                             <small>Buenos Aires</small>
                         </div>
-                        <div class="destination">
+                        <div class="destination m-2">
                             <strong>TUC</strong>
                             <small>San Miguel de Tucumán, Equipaje</small>
                         </div>
                         <div class="price-container">
-                            <div class="price-header">
+                            <div class="price-header m-2">
                                 <small>Precio por adulto</small>
                                 <strong>$5.029</strong>
                             </div>
-                            <div class="price-body">
+                            <div class="price-body m-2">
                                 <p>
                                     <small>1 Adulto</small>
                                     <small>$ 5.029</small>
@@ -234,11 +234,11 @@
                                 </p>
                             </div>
                             <hr />
-                            <div class="final-price">
+                            <div class="final-price m-2">
                                 <strong>Precio final</strong>
                                 <strong>$6.564</strong>
                             </div>
-                            <div class="CTA">
+                            <div class="CTA m-2">
                                 <button type="button" class="bg-primary">¡Comprar Ya!</button>
                             </div>
                             <hr />
@@ -247,50 +247,51 @@
                                 <small><a href="#">Ver Bancos y Tarjetas</a></small>
                             </div>
                         </div>
-                        <div class="company">
+                        <div class="company m-2">
                             <div class="company-logo">
                                 <img src="./images/iberia.png" alt="Iberia">
                             </div>
                         </div>
-                        <div class="departure-hour">
+                        <div class="departure-hour m-2">
                             <strong>19:27</strong>
                             <small>Directo</small>
                         </div>
-                        <div class="destination-hour">
+                        <div class="destination-hour m-2">
                             <strong>21:27</strong>
                             <small>2 h</small>
                             <i class="fas fa-suitcase-rolling"></i>
                         </div>
-                        <div class="return">
+                        <hr class="ticket-border m-0"/>
+                        <div class="return m-2">
                             <i class="fas fa-plane"></i>
                             <strong class="d-inline">VUELTA</strong>
                             <small>lun. 27 sep. 2019</small>
                         </div>
-                        <div class="departure-return">
+                        <div class="departure-return m-2">
                             <strong>TUC</strong>
                             <small>SM de Tucumán</small>
                         </div>
-                        <div class="destination-return">
+                        <div class="destination-return m-2">
                             <strong>AEP</strong>
                             <small>Buenos Aires Equipaje</small>
                         </div>
-                        <div class="company company-two">
+                        <div class="company company-two m-2">
                             <div class="company-logo">
                                 <img src="./images/iberia.png" alt="Iberia">
                             </div>
                         </div>
-                        <div class="departure-hour departure-hour-return">
+                        <div class="departure-hour departure-hour-return m-2">
                             <strong>19:27</strong>
                             <small>Directo</small>
                         </div>
-                        <div class="destination-details">
+                        <div class="destination-details m-2">
                             <strong>21:27</strong>
                             <small>2 h</small>
                             <i class="fas fa-suitcase-rolling"></i>
                         </div>
-                        <div class="ticket-footer">
+                        <hr class="ticket-border-footer m-0" />
+                        <div class="ticket-footer m-2">
                             <div class="bg-primary">Vuelo Más conveniente</div>
-
                         </div>
                     </div>
                 </div>
@@ -301,46 +302,66 @@
         <div class="row"><!-- A C C O R D I O N -->
             <div class="col-xl-3 col-md-3 col-sm-12 col-12">
                 <div id="accordion">
-                    <div class="card">
+                    <div class="card aside-color">
                         <div class="card-header">
-                        <a class="card-link" data-toggle="collapse" href="#collapseOne">
-                            Escalas
-                        </a>
+                            <a class="card-link text-color" data-toggle="collapse" href="#collapseOne">
+                                Escalas
+                            </a>
                         </div>
                         <div id="collapseOne" class="collapse show" data-parent="#accordion">
-                        <div class="card-body">
-                            Lorem ipsum..
+                        <div class="card-body aside-color text-color">
+                            <div class="form-check">
+                                <label class="form-check-label d-block">
+                                    <input type="checkbox" class="form-check-input" value="">Todas las Escalas
+                                </label>
+                                <label class="form-check-label d-block">
+                                        <input type="checkbox" class="form-check-input" value="">Directo
+                                    </label>
+                                <label class="form-check-label d-block">
+                                    <input type="checkbox" class="form-check-input" value="">1 Escala
+                                </label>
+                            </div>
                         </div>
                         </div>
                     </div>
-                    
-                    <div class="card">
-                        <div class="card-header">
-                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
-                            Equipaje
-                        </a>
+                    <div class="card aside-color">
+                        <div class="card-header aside-color">
+                            <a class="collapsed card-link text-color" data-toggle="collapse" href="#collapseTwo">
+                                Equipaje
+                            </a>
                         </div>
                         <div id="collapseTwo" class="collapse" data-parent="#accordion">
-                        <div class="card-body">
-                            Lorem ipsum..
+                        <div class="card-body aside-color text-color">
+                            <div class="form-check">
+                                <label class="form-check-label d-block">
+                                    <input type="checkbox" class="form-check-input" value="">Todas las opciones
+                                </label>
+                                <label class="form-check-label d-block">
+                                        <input type="checkbox" class="form-check-input" value="">Equipaje de mano
+                                    </label>
+                                <label class="form-check-label d-block">
+                                    <input type="checkbox" class="form-check-input" value="">Equipaje para despachar
+                                </label>
+                            </div>
                         </div>
                         </div>
                     </div>
-                    
-                    <div class="card">
-                        <div class="card-header">
-                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                    <div class="card border-0">
+                        <div class="card-header aside-color text-color">
+                        <a class="collapsed card-link text-color" data-toggle="collapse" href="#collapseThree">
                             Precio
                         </a>
                         </div>
                         <div id="collapseThree" class="collapse" data-parent="#accordion">
-                        <div class="card-body">
-                            Lorem ipsum..
+                        <div class="card-body aside-color">
+                            <form>
+                                <label for="customRange">Precio</label>
+                                <input type="range" class="custom-range" id="customRange" name="points1">
+                            </form>
                         </div>
                         </div>
                     </div>
-                    
-                    </div>
+                </div>
             </div>
         </div> <!-- A C C O R D I O N -->
     </div><!-- END MAIN CONTAINER -->
