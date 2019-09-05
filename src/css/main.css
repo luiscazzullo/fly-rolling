@@ -158,20 +158,6 @@ nav .nav-item a:hover{
     height: 300px;
 } 
 
-.search {
-    background: white rgb(240,240,240);
-    color:white;
-    justify-content: center;
-}
-.form-c {
-    color:white;
-    background: #000;
-    opacity: 0.5;
-    position: absolute;
-    height: 45px;
-    width: 45px;
-    border-radius: 50%;
-}
 /*Guia de viaje*/
 .card1{
     display: none;
@@ -574,4 +560,9 @@ footer .form-image-container img {
         right: -19px;
     }
 
+}
+/**TARJETAS DE COMENTARIOS**/
+.card-up {
+    height: 320px;
+    
 }
