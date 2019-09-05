@@ -23,6 +23,11 @@ p, a, strong, span, li, small {
     color: white;
 }
 
+.text-color {
+    font-family: 'Noto Serif', serif;
+    color: white;
+}
+
 .bg_navbar {
     background:#304848;
 }
@@ -46,6 +51,9 @@ p, a, strong, span, li, small {
 .navbar{
     padding: 0px 1px 0px 1px;
     margin-top:-5px;
+}
+nav .nav-item a:hover{
+    color:#007bff;
 }
 .navbar a img{  
    margin:-40px;
@@ -112,6 +120,14 @@ p, a, strong, span, li, small {
     }
 }
 /**END breakpoints HEADER**/
+
+/**CARD TIPO 2**/
+.card-body h5 .price{
+    text-decoration: line-through;
+    font-size: 70%;
+    color: gray;
+}
+/**END CARD TIPO 2**/
 .controls-position {
     width: 1% !important;
 }
@@ -141,6 +157,33 @@ p, a, strong, span, li, small {
     background-image: url(../images/Rio-de-Janeiro.jpg);
     height: 300px;
 } 
+
+/*Guia de viaje*/
+.card1{
+    display: none;
+}
+.card:hover > .card1{
+    display:block;
+    background: rgba(0, 0, 0, 0.4);
+    position:absolute;
+    width:100%;
+    top:0;
+    bottom:0;
+    text-align:center;
+}
+.card1 .btn1 {
+    margin:100px;
+    background: #304848;
+}
+.card-body .guide{
+    color:#304848;
+    size:15px;
+}
+.card-guide{
+    height:300px;
+}
+
+/*END DE VIAJE*/
 
 /*FOOTER*/
 
@@ -240,7 +283,7 @@ footer .form-image-container img {
     border-left: 20px solid #F4DF27;
     border-top: 15px solid transparent;
     border-bottom: 0px solid transparent;
-    bottom: -3px;
+    bottom: -2px;
 }
 
 /* F I L T E R S   C O N T A I N E R S*/
@@ -257,9 +300,21 @@ footer .form-image-container img {
     border-radius: 10px;
     display: grid;
     grid-template-columns: 20% 20% 35% 25%;
-    grid-template-rows: repeat(5, auto);
-    padding: 0 6px;
+    grid-template-rows: repeat(7, auto);
+    /* padding: 0 6px; */
     grid-gap: 10px 0;
+}
+
+.ticket-border {
+    grid-column: span 3;
+    grid-row: 3;
+    border: 1px solid white;
+}
+
+.ticket-border-footer {
+    grid-column: span 3;
+    grid-row: 6;
+    border: 1px solid white;
 }
 
 .ticket-container i {
@@ -272,7 +327,7 @@ footer .form-image-container img {
 
 .price-container {
     border-left: 1px solid white;
-    grid-row-end: span 5;
+    grid-row-end: span 7;
     padding: 5px;
 }
 
@@ -348,6 +403,35 @@ footer .form-image-container img {
     justify-content: space-around;
     align-items: center;
 }
+/**Primary CARD**/
+.cardprimary{
+   height:445.656px;
+}
+.cardprimary img{
+    height:179px;
+    width:100%;
+}
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.6s ease;
+}
+.inner:hover img{
+    transform: scale(1.5);
+}
+/**End PRIMARY CARD**/
+/**secondary guide**/
+.secondaryguide a h5{
+    color:#304860;
+}
+.secondaryguide a:hover{
+    text-decoration: none;
+}
+.cardsecondguide{
+    height:630px;
+}
+/**END SECONDARY GUIDE**/
 
 .destination-details i {
     font-size: 1em;
