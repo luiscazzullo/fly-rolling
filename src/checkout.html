@@ -166,12 +166,13 @@
                         <form>
                             <div class="form-group col-8">
                                 <label for="exampleFormControlInput1">Nombre</label>
-                                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Como figura en el documento de viaje">
+                                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Como figura en el documento de viaje" data-toggle="popover" data-trigger="click"
+                                data-content="Dato obligatorio">
                             </div>
                             <div class="form-group col-8">
                                 <label for="exampleFormControlInput1">Apellido</label>
                                 <input type="lastname" class="form-control" id="exampleFormControlInput1" placeholder="Como figura en el documento de viaje"  data-toggle="popover" data-trigger="click"
-                                data-content="testtttt">
+                                data-content="Dato obligatorio">
                             </div>
                             <div class="form-group col-8">
                                 <label for="exampleFormControlSelect1">País de residencia</label>
@@ -183,7 +184,7 @@
                                 <option>Ecuador</option>
                                 </select>
                             </div>
-                            <div class="form-group ml-3">                                    
+                            <div class="form-group ">                                    
                                     <label for="exampleFormControlSelect1">Tipo y número de documento</label>
                                 <div class="row">
                                     <div class="col-3">
@@ -197,7 +198,18 @@
                                         data-content="Dato obligatorio.">
                                     </div>
                                 </div>
-                            </div>      
+                            </div>
+                            <div class="form-group  mb-1"> 
+                                <label for="exampleFormControlSelect1">Sexo</label>
+                            </div>
+                            <div class="btn-group btn-group-toggle " data-toggle="buttons">                                    
+                                <label class="btn btn-light">
+                                <input type="radio" name="options" id="option1" autocomplete="off"> Femenino
+                                </label>
+                                <label class="btn btn-light">
+                                <input type="radio" name="options" id="option2" autocomplete="off"> Masculino
+                                </label>                                
+                            </div>     
                         </form>                         
                     </div>
                 </div>                 
@@ -206,7 +218,7 @@
                         <div class="card text-white bg-primary mb-3">
                             <div class="card-header">                            
                             <a class="card-link" data-toggle="collapse" href="#collapseOne">
-                                <p>No incluye equipaje</p>                                                 
+                                <h5>No incluye equipaje</h5>                                                 
                             </a>
                             </div>
                             <div id="collapseOne" class="collapse show bg-light" data-parent="#accordion">
@@ -218,19 +230,62 @@
                     </div>
                 </div>
                 <div class="card text-white bg-primary mb-3" >
-                    <h5>¿A dónde enviamos tus vouchers?</h5>
-                    <form>
-                        <div class="form-group">
+                    <div class="card-body">
+                        <h5>¿A dónde enviamos tus vouchers?</h5>
+                        <form>
+                        <div class="form-group col-8">
                             <label for="exampleInputEmail1">Email</label>
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu email de contacto">
                         </div>
-                        <div class="form-group">
+                        <div class="form-group col-8">
                             <label for="exampleInputEmail1">Confirmá tu Email</label>
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu email">                            
                         </div>                        
-                    </form>
+                        </form>
+                        <div class="form-check form-check-inline m-3">                            
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox1">¡Quiero recibir las mejores ofertas!</label>                         
+                        </div>                  
+                    </div>
                 </div>
-                <div></div>
+                <div class="card text-white bg-primary mb-3" >
+                        <div class="card-body">
+                            <h5>¿A número te podemos llamar?</h5>
+                            <form>
+                                <div class="form-group col-8">
+                                    <label for="exampleFormControlSelect1">Teléfono</label>
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>Celular</option>
+                                    <option>Particular</option>                                        
+                                    </select>
+                                </div>
+                                <div class="form-group col-8">
+                                    <label for="exampleFormControlSelect1">Código de país</label>
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>Argentina (+54)</option>
+                                    <option>Brasil (+55)</option>
+                                    <option>Chile (+56)</option>   
+                                    <option>Colombia (+57)</option>
+                                    <option>Ecuador (+593)</option>                                                                                                               
+                                    </select>                            
+                                </div>                                                                      
+                                <div class="form-row">                                                                              
+                                    <div class="form-group col-md-2 ml-3">
+                                        <label>Área</label>
+                                        <input type="number" class="form-control" id="inputZip">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label>Número</label>
+                                        <input type="number" class="form-control" id="inputCity">
+                                    </div> 
+                                </div>                       
+                            </form>
+                            <div class="input-group m-3">                            
+                                <input type="checkbox" name="" id="">                                                
+                                <h8>¡Quiero recibir las mejores ofertas!</h8>                            
+                            </div>                  
+                        </div>
+                    </div>
                 <div></div>
                 <input type="checkbox" name="" id="">
                 <button type="submit" class="btn btn-primary mb-4">Comprar</button>
