@@ -562,6 +562,29 @@ footer .form-image-container img {
     }
 
 }
+/**first price table**/
+.logo-iberia {
+    display:inline-block;
+    background-image: url(../images/iberia.png);
+    background-size:cover;
+    width: 50px;
+    height:14px;
+}
+.logo-latam{
+    display:inline-block;
+    background-image: url(../images/latam-logo.png);
+    background-size:cover;
+    width: 10px;
+    height:14px;
+}
+.logo-aerolineas{
+    display:inline-block;
+    background-image: url(../images/latam-logo.png);
+    background-size:cover;
+    width: 10px;
+    height:14px;
+}
+/**end first price table**/
 /**TARJETAS DE COMENTARIOS**/
 .card-up {
     height: 320px;
