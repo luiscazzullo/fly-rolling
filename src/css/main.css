@@ -155,7 +155,8 @@ nav .nav-item a:hover{
 
 .img-buscador {
     background-image: url(../images/Rio-de-Janeiro.jpg);
-    height: 300px;
+    max-width: 100%;
+    height: auto;
 } 
 
 /*Guia de viaje*/
