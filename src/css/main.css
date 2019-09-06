@@ -108,6 +108,10 @@ nav .nav-item a:hover{
     .nav .nav-item a span{
         display:none;
        }
+
+    .btn-sm-margin {
+        margin-top: 1em;
+    }
 }
 @media(max-width: 768px){
    .nav .nav-item a span{
