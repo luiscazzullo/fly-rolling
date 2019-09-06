@@ -155,23 +155,10 @@ nav .nav-item a:hover{
 
 .img-buscador {
     background-image: url(../images/Rio-de-Janeiro.jpg);
-    height: 300px;
+    max-width: 100%;
+    height: auto;
 } 
 
-.search {
-    background: white rgb(240,240,240);
-    color:white;
-    justify-content: center;
-}
-.form-c {
-    color:white;
-    background: #000;
-    opacity: 0.5;
-    position: absolute;
-    height: 45px;
-    width: 45px;
-    border-radius: 50%;
-}
 /*Guia de viaje*/
 .card1{
     display: none;
@@ -598,3 +585,8 @@ footer .form-image-container img {
     height:14px;
 }
 /**end first price table**/
+/**TARJETAS DE COMENTARIOS**/
+.card-up {
+    height: 320px;
+    
+}
