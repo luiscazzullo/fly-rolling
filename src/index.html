@@ -98,57 +98,64 @@
     </div>
     <!-- END MENU -->
     <!-- BUSCADOR -->
-
-     <div class="container-fluid img-buscador">
-         <div class="justify-content-center">
-             <h6 class="text-body">Vuelos</h6>
-             <div class="text-body">
-                 <div class="form-check form-check-inline">
-                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                     <label class="form-check-label" for="inlineRadio1">Ida y Vuelta</label>
-                 </div>
-                 <div class="form-check form-check-inline">
-                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                     <label class="form-check-label" for="inlineRadio2">Ida</label>
-                 </div>
-                 <div class="form-check form-check-inline">
-                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                     <label class="form-check-label" for="inlineRadio2">Multidestino</label>
-                 </div>  
+    <div class="container-fluid img-buscador mb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h4 class="text-body p-1 m-0">Vuelos</h4>
+                </div>
             </div>
-         </div>
-         <div class="text-body">             
-             <div class="form-row">
-                 <div class="col-md-6 col-sm-6 col-xs-12">
-                     <label for="disabledTextInput">Origen</label>    <i class="fas fa-paper-plane"></i>
-                     <input type="text" id="disabledTextInput" class="form-control" placeholder="Ingrese desde donde viaja">
-                 </div>
-                 <div class="col-md-6 col-sm-6 col-xs-12">
-                     <label for="disabledTextInput">Destino</label>   <i class="fas fa-paper-plane"></i>    
-                     <input type="text" id="disabledTextInput" class="form-control" placeholder="Ingrese hacia donde viaja">
-                 </div>
-                 <div class="col-md-3 col-sm-6 col-xs-12">
-                     <label for="disabledTextInput">Fecha Partida</label>  <i class="far fa-calendar-alt"></i>
-                     <input type="date" id="disabledTextInput"  placeholder="Ida">
-                 </div>
-                 <div class="col-md-3 col-sm-6 col-xs-12">
-                     <label for="disabledTextInput">Fecha Salida</label>   <i class="far fa-calendar-alt"></i>
-                     <input type="date"id="disabledTextInput"  placeholder="Vuelta">
-                 </div>
-                 <div class="col-md-3 col-sm-6 col-xs-12">
-                     <label for="disabledTextInput">Cantidad de Pasajeros</label>  <i class="fas fa-users"></i>
-                     <input type="text" id="disabledTextInput" class="form-control"placeholder="Cantidad">
-                 </div>
-                 <div class="col-md-3 col-sm-6 col-xs-12">
-                     <button type="button" class="btn btn-info active m-4"><span class="spinner-border spinner-border-sm"></span> Buscar</button>
-                 </div>
-             </div>
-         </div>
-     </div>
-
-                
+            <div class="row">
+                <div class="col-12">
+                    <div class="form-check-inline p-1">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="optradio">Ida y Vuelta
+                        </label>
+                        </div>
+                        <div class="form-check-inline">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="optradio">Ida
+                        </label>
+                        </div>
+                        <div class="form-check-inline disabled">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="optradio">Multidestino
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-12">
+                    <label for="disabledTextInput">Origen</label><i class="fas fa-paper-plane ml-2"></i>
+                    <input type="text" id="disabledTextInput" class="form-control" placeholder="Ingrese desde donde viaja">
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <label for="disabledTextInput">Destino</label><i class="fas fa-paper-plane ml-2"></i>    
+                    <input type="text" id="disabledTextInput" class="form-control" placeholder="Ingrese hacia donde viaja">
+                </div>
+            </div>
+            <div class="row align-items-end py-2">
+                <div class="col-md-3 col-sm-6 col-12">
+                    <label for="disabledTextInput">Fecha Partida</label>  <i class="far fa-calendar-alt"></i>
+                    <input type="date" id="disabledTextInput" class="form-control" placeholder="Ida">
+                </div>
+                <div class="col-md-3 col-sm-6 col-12">
+                    <label for="disabledTextInput">Fecha Llegada</label>  <i class="far fa-calendar-alt"></i>
+                    <input type="date" id="disabledTextInput" class="form-control" placeholder="Ida">
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <label for="disabledTextInput">Pasajeros</label>  <i class="fas fa-users"></i>
+                    <input type="text" id="disabledTextInput" class="form-control m-auto" placeholder="Cantidad">
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="btn-container d-flex justify-content-center">
+                        <button type="button" class="btn btn-info rounded w-100 my-3"><i class="fas fa-search pr-2"></i>Buscar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- END BUSCADOR -->
-
     <div class="container"> <!-- MAIN CONTAINER -->
     <!-- PROMOCION DE TARJETAS -->
     <div class="row">
@@ -203,12 +210,12 @@
     <!-- PRIMERA TARJETA -->
     <div class="row">
         <div class="col-12">
-             <h3 class="mt-3 ml-n3">Salta , <span>tan linda que enamora</span></h3>
+             <h3 class="my-3 ml-n3">Salta , <span>tan linda que enamora</span></h3>
         </div>
     
         <!--C A R O U S E L  card 1-->
         <div class="row">
-            <div id="carouselcard1control" class="carousel slide" data-ride="carousel" data-interval="false">
+            <div id="carouselcard1control" class="carousel slide my-3" data-ride="carousel" data-interval="false">
                  <div class="carousel-inner">
                     <div class="carousel-item active">
                          <div class="row">
@@ -475,14 +482,7 @@
     <!--CAROUSEL-->
 </div>
     <!-- END PRIMERA TARJETA -->
-</div>
-    <!-- PRIMERA TARJETA -->   
-    <!-- END PRIMERA TARJETA -->
     <!-- SEGUNDA TARJETA -->
-        <div class="row">    
-        </div>   
-    <!-- END SEGUNDA TARJETA -->
-    <!-- TERCERA TARJETA -->
     <div class="row">
         <div class="col-12">
             <h5 class="mt-3 ml-n3">Alojate</h5>
@@ -492,7 +492,7 @@
         </div>
         <!-- C A R O U S E L -->
         <div class="row">
-            <div id="carouselBcn" class="carousel slide" data-ride="carousel"  data-interval="false">
+            <div id="carouselBcn" class="carousel slide my-3" data-ride="carousel"  data-interval="false">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="row">
@@ -697,8 +697,8 @@
         </div>
         <!-- E N D   C A R O U S E L -->
     </div>
-    <!-- END TERCERA TARJETA -->
-    <!-- CUARTA TARJETA -->
+    <!-- END SEGUNDA TARJETA -->
+    <!-- TERCERA TARJETA -->
     <div class="row">
         <div class="col-12">
             <h5 class="mt-3 ml-n3">Conocé</h5>
@@ -708,7 +708,7 @@
         </div>
         <!-- C A R O U S E L -->
         <div class="row">
-            <div id="carouselParis" class="carousel slide" data-ride="carousel"  data-interval="false">
+            <div id="carouselParis" class="carousel slide my-3" data-ride="carousel"  data-interval="false">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="row">
@@ -876,21 +876,17 @@
         </div>
         <!-- E N D   C A R O U S E L -->
     </div>
-    <!-- END CUARTA TARJETA -->
+    <!-- END TERCERA TARJETA -->
     <!-- RECIBIR OFERTAS -->
     <div class="row">
         <div class="col-md-6"></div>
         <div class="col-md-6"></div>
     </div>
     <!-- END RECIBIR OFERTAS -->
-    <!-- QUINTA TARJETA -->
-    <div class="row"> 
-    </div>
-    <!-- END QUINTA TARJETA -->
     <!-- COMENTARIOS DESTACADOS -->
      <div class="row">
              <div class="col-md-3 col-sm-6 col-xs-12">
-                     <div class="card card-up">
+                     <div class="card card-up my-3">
                          <div class="card-body text-center">
                              <h6 class="text-info"><i class="fas fa-star"></i>  TRUSTPILOT</h6>
                              <br>
@@ -908,7 +904,7 @@
              </div>
    
              <div class="col-md-3 col-sm-6 col-xs-12">
-                 <div class="card card-up">
+                 <div class="card card-up my-3">
                      <div class="card-body">
                         <h6 class="text-dark"><i class="fas fa-user"></i>  Romina Farias</h6>
                         <p class="text-muted small">Hace 17 horas</p>   
@@ -918,33 +914,33 @@
              </div>
    
              <div class="col-md-3 col-sm-6 col-xs-12">
-                 <div class="card card-up">
+                 <div class="card card-up my-3">
                      <div class="card-body">
-                         <h6 class="text-dark"><i class="fas fa-user"></i>  Paolo Ruiz</h6>
+                         <h6 class="text-dark"><i class="fas fa-user"></i>Paolo Ruiz</h6>
                         <p class="text-muted small">Hace 19 horas</p>  
                         <p class="text-dark small font-italic">Muy confiable, cumple todo, es fácil contratar y encontrar lo que buscas, con muchas opciones de pago</p>
                      </div>
                  </div>
              </div>
    
-             <div class="col-md-3 col-sm-6 col-xs-12">
-                 <div class="card card-up">
-                     <div class="card-body">
-                        <h6 class="text-dark"><i class="fas fa-user"></i>  Ramiro Heluan</h6>
-                        <p class="text-muted small">Hace 23 horas</p>   
-                        <p class="text-dark small font-italic">Por suerte me ofrecieron un paquete tal cual lo necesitaba! Gracias por la atención de la asesora de ventas Betiana que contesto todas mis dudas. Gracias</p>
-                     </div>
-                 </div>
-             </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="card card-up my-3">
+                <div class="card-body">
+                    <h6 class="text-dark"><i class="fas fa-user"></i>  Ramiro Heluan</h6>
+                    <p class="text-muted small">Hace 23 horas</p>   
+                    <p class="text-dark small font-italic">Por suerte me ofrecieron un paquete tal cual lo necesitaba! Gracias por la atención de la asesora de ventas Betiana que contesto todas mis dudas. Gracias</p>
+                </div>
+            </div>
+        </div>
      </div>
     <!-- END COMENTARIOS DESTACADOS -->
     </div><!-- END MAIN CONTAINER -->
-<div class="bg_navbar">
+    <div class="bg_navbar">
     <div class="container"> <!-- SECONDARY CONTAINER -->
         <!-- GUIA DE VIAJES -->
-        <div class="row justify-content-between p-3">
-            <div class="col-md-12 col-sm-6 col-6 p-4">
-                <h4>Animate a elegir FlyRolling para tus viajes</h4>
+        <div class="row justify-content-between">
+            <div class="col-md-12 col-sm-6 col-6">
+                <h4 class="p-3">Animate a elegir FlyRolling para tus viajes</h4>
             </div>
         </div>
             <div class="row justify-content-center">
@@ -1008,18 +1004,18 @@
         </div>
                 <!--END GUIA DE VIAJES-->
     </div>  <!-- END SECONDARY CONTAINER -->
-</div>
+    </div>
         <!-- END GUIA DE VIAJES -->
         <!--SECOND GUIA DE VIAJES-->
         <div class="container">
-            <div class="row justify-content-center m-4">
-                <div class="col-md-12 col-sm-12 p-4 col-6">
-                    <h4>Compra en FlyRolling todo para tu viaje</h4>
+            <div class="row justify-content-center">
+                <div class="col-md-12 col-sm-12 col-6">
+                    <h4 class="my-3">Compra en FlyRolling todo para tu viaje</h4>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-3 col-sm-12 col-12"> 
-                    <div class="card mb-3 cardsecondguide">
+                    <div class="card cardsecondguide my-3">
                         <div class="card-body secondaryguide">
                             <a href="#">
                                 <h5 class="card-title">¿Como comprar en FlyRolling?</h5>
@@ -1032,7 +1028,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 col-12">
-                    <div class="card mb-3 cardsecondguide">
+                    <div class="card my-3 cardsecondguide">
                         <div class="card-body secondaryguide">
                             <a href="#">
                                 <h5 class="card-title text-dark">Documentación necesaria para comprar y viajar</h5></a>
@@ -1042,7 +1038,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-12 col-12">
-                    <div class="card mb-3 cardsecondguide">
+                    <div class="card my-3 cardsecondguide">
                         <div class="card-body secondaryguide">
                             <a href="#">
                                 <h5 class="card-title text-dark">¿Se puede modificar o cancelar una comprar?</h5></a>
@@ -1053,7 +1049,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 col-12">
-                    <div class="card mb-3 cardsecondguide">
+                    <div class="card my-3 cardsecondguide">
                         <div class="card-body secondaryguide">
                             <a href="#">
                                 <h5 class="card-title text-dark">¿Por qué elegir FlyRolling para tu viaje?</h5></a>
@@ -1066,7 +1062,6 @@
                 </div>
             </div>
         </div>
-
         <!-- END GUIA DE VIAJES -->
     </div>  <!-- END SECONDARY CONTAINER -->
     <!-- FOOTER -->
