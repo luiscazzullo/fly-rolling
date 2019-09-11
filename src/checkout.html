@@ -7,6 +7,7 @@
     <title>Fly Rolling</title>
     <link rel="stylesheet" href="./css/main.css"> <!-- Main CSS -->
     <link href="https://fonts.googleapis.com/css?family=Bitter|Noto+Serif&display=swap" rel="stylesheet"><!-- Google Fonts -->
+    <script src="https://kit.fontawesome.com/4df2f2241d.js"></script><!-- Font Awesome -->
 </head>
 <body class="bg_main">
     <!-- HEADER -->
@@ -260,6 +261,7 @@
                                 </div>
                                 <div class="form-group col-8">
                                     <label for="exampleFormControlSelect1">Código de país</label>
+                  
                                     <select class="form-control" id="exampleFormControlSelect1">
                                     <option>Argentina (+54)</option>
                                     <option>Brasil (+55)</option>
@@ -289,16 +291,110 @@
                 <input type="checkbox" name="" id="">
                 <button type="submit" class="btn btn-primary mb-4">Comprar</button>
             </div>
-            <div class="col-4 bg-light">
-                <h2>detalle de pago</h2>
-                <div>total</div>
-                <h2>detalle de compra</h2>
-                <div>politica de cambios y cancelaciones</div>
-                <div>codigo de referencia</div>
-            </div>
+             <div class="col-4 bg-light">
+                 <hr>
+                 <h4 class="text-info">Detalle del pago</h4>
+                 <hr>
+                 <div class="card text-white bg-primary mb-3" >
+                   <div class="card-body">
+                       <p class="card-text small text-left">Vuelo para una persona       $16.798</P>
+                       <p class="card-text small text-left">Impuestos, tasas y cargos    $7.990</p>
+                       <hr>
+                       <h5 class="text-center">TOTAL $24.788</h5>
+                   </div>
+                 </div>
+                 <hr>
+                 <h4 class="text-info">Detalle de la compra</h4>
+                 <hr>
+                 <div class="card text-white bg-primary mb-3" >
+                     <div class="card-body">
+                         <h4 class="card-text"> <i class="fas fa-plane"></i> Buenos Aires - Barcelona</h4>
+                         <p class="card-text small">Ida y vuelta, 1 adulto</p>
+                         <hr>
+                         <p>Ida - 12 de Septiembre</p>
+                         <p class="card-text small">EZE 21.30 ---- 1 ESCALA ---- 06.45 BCN</p>
+                         <P class="card-text small"> Duracion 28.15 hs</P>
+                         <p class="card-text small"><i class="fas fa-suitcase-rolling"></i>  <i class="fas fa-suitcase-rolling"></i>  2 valijas por adulto</p>
+                         <hr>
+                         <hr>
+                         <p>Vuelta - 30 de Septiembre</p>
+                         <p class="card-text small">BCN 09.40 ---- 1 ESCALA ---- 06.05 EZE</p>
+                         <p class="card-text small">Duracion 25.25 hs</p>
+                         <p class="card-text small"><i class="fas fa-suitcase-rolling"></i>  <i class="fas fa-suitcase-rolling"></i>  2 valijas por adulto</p>
 
-        </div>
-    </div>
+                         <h3 class="text-center"></h3>
+                     </div>
+                 </div>
+                 <div class="card text-white bg-primary mb-3" >
+                     <div class="card-body">
+                         <h6 class="small"><i class="fas fa-info-circle"></i> Política de cambios y cancelaciones</h6>
+                         <hr>
+                         <button type="button" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#myModal">Ver Condiciones</button>      
+                         <div class="modal" id="myModal">
+                             <div class="modal-dialog">
+                                 <div class="modal-content">       
+                                     <div class="modal-header">
+                                         <h4 class="modal-title text-secondary">Politica de cambios y cancelaciones</h4>
+                                         <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                     </div>
+                                     <div class="modal-body">
+                                         <p class="text-left small text-secondary">
+                                                Cambio de fecha o itinerario
+                                                ¿Qué pasa si quiero cambiar el pasaje antes del viaje?  
+                                                La aerolínea te cobrará $ 17100 como penalidad por el cambio y Despegar $ 350 por gastos administrativos.Tené en cuenta que si el pasaje nuevo es más caro que el original, deberás sumar la diferencia de tarifas entre ambos.
+                                                ¿Qué pasa si quiero cambiar alguno de los tramos del vuelo y ya tomé el primer avión?   
+                                                La aerolínea te cobrará $ 17100 como penalidad por el cambio y Despegar $ 350 por gastos administrativos.Tené en cuenta que si el pasaje nuevo es más caro que el original, deberás sumar la diferencia de tarifas entre ambos.
+                                                ¿Qué pasa si no me presenté en el aeropuerto y quiero cambiar el pasaje?
+                                                La aerolínea te cobrará $ 17100 como penalidad por el cambio y Despegar $ 350 por gastos administrativos. Tené en cuenta que si el pasaje nuevo es más caro que el original, deberás sumar la diferencia de tarifas entre ambos. Además, si tu viaje tiene más de un tramo, la aerolínea podría cancelarte los tramos siguientes.
+                                                Cancelación
+                                                ¿Qué pasa si quiero cancelar el pasaje antes del viaje?                          
+                                                El pasaje no es reembolsable.
+                                                ¿Qué pasa si quiero cancelar alguno de los tramos del vuelo y ya tomé el primer avión?                
+                                                El pasaje no es reembolsable.
+                                                ¿Qué pasa si no me presenté en el aeropuerto y quiero cancelar el pasaje?                 
+                                                El pasaje no es reembolsable.
+                                         </p>
+                                        </div>
+                                     <div class="modal-footer">
+                                         <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                                     </div>  
+                                 </div>
+                             </div>
+                         </div>             
+                     </div>
+                 </div>
+            
+                 <div class="card text-white bg-primary mb-3">
+                   <div id="accordion">
+                       <div class="card text-dark bg-primary mb-0">
+                           <div class="card-header" >
+                           <a class="card-link" data-toggle="collapse" href="#collapseOne" >
+                               <h6>Código de referencia</h6>
+                           </a>
+                           </div>
+                           <div id="collapseOne" class="collapse bg-light" data-parent="#accordion">
+                           <div class="card-body ">
+                               <form>
+                                   <div class="form-group col-12">
+                                       <label for="exampleInputEmail1">Email</label>
+                                       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu email de contacto">
+                                   </div>
+                                   <div class="form-group col-12">
+                                       <label for="exampleInputEmail1">Código de referencia</label>
+                                       <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                       <button class="btn btn-primary mt-4">Validar</button>
+                                   </div>
+                                   <hr>
+                                   <small class="text-dark">El cupón descontará primero la tarifa base y luego los impuestos y tasas correspondientes. En caso de que el valor del descuento no llegue a cubrir el total de los impuestos y tasas, los mismos no serán descontados, ya que no es posible su pago parcial con esta modalidad</small>
+                               </form>
+                           </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+             </div>
+         </div>
+     </div>
     <!-- END PAY -->
 
 
