@@ -11,8 +11,8 @@
 </head>
 <body class="bg_main">
     <!-- ALERT DE KARY -->
-    <div class="row">
-        <div class="col-12">
+    <div>
+        <div>
             <div class="alert alert-warning alert-dismissible fade show m-0 alert-warning justify-content-center align-items-center w-100 rounded-0" role="alert">
                 <p class="text-dark text-center m-0"><strong class="text-dark">Fly Rolling! </strong> Recibi nuestras ofertas y novedades en tu mail.</p>
                 <button type="button" class="close"  data-dismiss="alert" aria-label="Close">
@@ -22,138 +22,153 @@
         </div>
     </div>
     <!-- END ALERT KARY -->
-    <!-- HEADER -->
-    <div class="bg_navbar">
-        <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-sm-1 col-md-3 ">
-                    <nav class="navbar">
-                        <a class="navbar-brand navbar" href="#">
-                            <img src="./images/logo.png">
-                        </a>
-                    </nav>           
-                </div>
-               <div class="col-sm-11 col-md-9 ">
-                    <ul class="nav justify-content-end p-3">
-                        <li class="nav-item">
-                          <a class="nav-link active" href="index.html">
-                            <i class="fas fa-headphones"></i>
-                            <span>Para Ventas 0810 555 555</span> 
-                          </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="login.html">
-                                <i class="fas fa-user"></i>
-                                <span>Iniciar Sesion</span> 
+    <header class="d-md-block d-sm-flex d-flex justify-content-between bg_navbar align-items-center">
+            <!-- HEADER -->
+    <div>
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-sm-1 col-md-3 ">
+                        <nav class="navbar">
+                            <a class="navbar-brand navbar" href="./index.html">
+                                <img src="./images/logo.png">
                             </a>
+                        </nav>           
+                    </div>
+                   <div class="col-sm-11 col-md-9 ">
+                        <ul class="nav justify-content-end p-3 d-md-flex d-sm-none d-none">
+                            <li class="nav-item">
+                              <a class="nav-link active" href="index.html">
+                                <i class="fas fa-headphones"></i>
+                                <span>Para Ventas 0810 555 555</span> 
+                              </a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="login.html">
+                                    <i class="fas fa-user"></i>
+                                    <span>Iniciar Sesion</span> 
+                                </a>
+                                </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">
+                                    <i class="fas fa-suitcase-rolling"></i>
+                                    <span>Mis Viajes</span> 
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">
+                                    <i class="fas fa-question-circle"></i>
+                                 <span> Ayuda</span>
+                              </a>
+                          </li>
+                        </ul>   
+                    </div>
+                </div>
+            </div>
+    </div>
+        <!-- END HEADER -->
+        <!-- MENU -->
+        <div>
+            <nav class="navbar navbar-expand-md navbar-dark">
+                <!-- Toggler/collapsibe Button -->
+                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav m-auto d-sm-flex">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">
-                                <i class="fas fa-suitcase-rolling"></i>
-                                <span>Mis Viajes</span> 
-                            </a>
+                            <a class="nav-link border border-white rounded m-1 active" href="#"><i class="fa fa-plane"></i> Vuelos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">
-                                <i class="fas fa-question-circle"></i>
-                             <span> Ayuda</span>
-                          </a>
-                      </li>
-                    </ul>   
+                            <a class="nav-link border border-white rounded m-1" href="#"> <i class="fas fa-concierge-bell"></i> Hotel</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link border border-white rounded m-1" href="#"><i class="fas fa-suitcase"></i> Paquetes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link border border-white rounded m-1" href="#"><i class="fas fa-running"></i> Actividades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link border border-white rounded m-1" href="#"><i class="fas fa-medkit"></i> Seguros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link border border-white rounded m-1" href="#"><i class="fas fa-car-side"></i> Autos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link border border-white rounded m-1" href="#"><i class="fas fa-bus-alt"></i> Traslados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link border border-white rounded m-1" href="#"><i class="fas fa-ship"></i> Cruceros</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- END MENU -->
+    <!-- BUSCADOR -->
+    <div class="container-fluid img-buscador mb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h4 class="text-body p-1 m-0">Vuelos</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="form-check-inline p-1">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="optradio">Ida y Vuelta
+                        </label>
+                        </div>
+                        <div class="form-check-inline">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="optradio">Ida
+                        </label>
+                        </div>
+                        <div class="form-check-inline disabled">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="optradio">Multidestino
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-12">
+                    <label for="disabledTextInput">Origen</label><i class="fas fa-paper-plane ml-2"></i>
+                    <input type="text" id="disabledTextInput" class="form-control" placeholder="Ingrese desde donde viaja">
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <label for="disabledTextInput">Destino</label><i class="fas fa-paper-plane ml-2"></i>    
+                    <input type="text" id="disabledTextInput" class="form-control" placeholder="Ingrese hacia donde viaja">
+                </div>
+            </div>
+            <div class="row align-items-end py-2">
+                <div class="col-md-3 col-sm-6 col-12">
+                    <label for="disabledTextInput">Fecha Partida</label>  <i class="far fa-calendar-alt"></i>
+                    <input type="date" id="disabledTextInput" class="form-control" placeholder="Ida">
+                </div>
+                <div class="col-md-3 col-sm-6 col-12">
+                    <label for="disabledTextInput">Fecha Llegada</label>  <i class="far fa-calendar-alt"></i>
+                    <input type="date" id="disabledTextInput" class="form-control" placeholder="Ida">
+                </div>
+                <div class="col-md-3 col-sm-6 col-12">
+                    <label for="disabledTextInput">Pasajeros</label>  <i class="fas fa-users"></i>
+                    <input type="text" id="disabledTextInput" class="form-control" placeholder="Cantidad">
+                </div>
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="btn-container d-flex justify-content-center btn-sm-margin">
+                        <a href="./results.html" class="btn btn-info rounded w-100 m-auto"><i class="fas fa-search pr-2"></i>Buscar</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- END HEADER -->
-    <!-- MENU -->
-    <div>
-        <nav class=" navbar justify-content-center bg_navbar">
-            <ul class="nav ">
-                <li class="nav-item">
-                    <a class="nav-link border border-white rounded m-1 active " href="#"><i class="fa fa-plane"></i> Vuelos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link border border-white rounded m-1" href="#"> <i class="fas fa-concierge-bell"></i> Hotel</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link border border-white rounded m-1" href="#"><i class="fas fa-suitcase"></i> Paquetes</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link border border-white rounded m-1" href="#"><i class="fas fa-running"></i> Actividades</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link border border-white rounded m-1" href="#"><i class="fas fa-medkit"></i> Seguros</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link border border-white rounded m-1" href="#"><i class="fas fa-car-side"></i> Autos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link border border-white rounded m-1" href="#"><i class="fas fa-bus-alt"></i> Traslados</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link border border-white rounded m-1" href="#"><i class="fas fa-ship"></i> Cruceros</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
-    <!-- END MENU -->
-    <!-- BUSCADOR -->
-
-     <div class="container-fluid img-buscador">
-         <div class="justify-content-center">
-             <h6 class="text-body">Vuelos</h6>
-             <div class="text-body">
-                 <div class="form-check form-check-inline">
-                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                     <label class="form-check-label" for="inlineRadio1">Ida y Vuelta</label>
-                 </div>
-                 <div class="form-check form-check-inline">
-                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                     <label class="form-check-label" for="inlineRadio2">Ida</label>
-                 </div>
-                 <div class="form-check form-check-inline">
-                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                     <label class="form-check-label" for="inlineRadio2">Multidestino</label>
-                 </div>  
-            </div>
-         </div>
-         <div class="text-body">             
-             <div class="form-row">
-                 <div class="col-md-6 col-sm-6 col-xs-12">
-                     <label for="disabledTextInput">Origen</label>    <i class="fas fa-paper-plane"></i>
-                     <input type="text" id="disabledTextInput" class="form-control" placeholder="Ingrese desde donde viaja">
-                 </div>
-                 <div class="col-md-6 col-sm-6 col-xs-12">
-                     <label for="disabledTextInput">Destino</label>   <i class="fas fa-paper-plane"></i>    
-                     <input type="text" id="disabledTextInput" class="form-control" placeholder="Ingrese hacia donde viaja">
-                 </div>
-                 <div class="col-md-3 col-sm-6 col-xs-12">
-                     <label for="disabledTextInput">Fecha Partida</label>  <i class="far fa-calendar-alt"></i>
-                     <input type="date" id="disabledTextInput"  placeholder="Ida">
-                 </div>
-                 <div class="col-md-3 col-sm-6 col-xs-12">
-                     <label for="disabledTextInput">Fecha Salida</label>   <i class="far fa-calendar-alt"></i>
-                     <input type="date"id="disabledTextInput"  placeholder="Vuelta">
-                 </div>
-                 <div class="col-md-3 col-sm-6 col-xs-12">
-                     <label for="disabledTextInput">Cantidad de Pasajeros</label>  <i class="fas fa-users"></i>
-                     <input type="text" id="disabledTextInput" class="form-control"placeholder="Cantidad">
-                 </div>
-                 <div class="col-md-3 col-sm-6 col-xs-12">
-                     <button type="button" class="btn btn-info active m-4"><span class="spinner-border spinner-border-sm"></span> Buscar</button>
-                 </div>
-             </div>
-         </div>
-     </div>
-
-                
     <!-- END BUSCADOR -->
-
     <div class="container"> <!-- MAIN CONTAINER -->
     <!-- PROMOCION DE TARJETAS -->
     <div class="row">
         <div class="col-12">
-            <h3 class="ml-n3 my-3">Promociones</h3>
+            <h3 class="my-3">Promociones</h3>
             <div class="cards-container d-flex justify-content-between">
                 <div class="card-box">
                     <img src="https://media.staticontent.com/media/pictures/a87ec60b-5a7a-46c6-a233-6b05ec367011/" alt="">
@@ -203,92 +218,25 @@
     <!-- PRIMERA TARJETA -->
     <div class="row">
         <div class="col-12">
-             <h3 class="mt-3 ml-n3">Salta , <span>tan linda que enamora</span></h3>
-        </div>
-    
+            <h3 class="my-3">Salta, <span>tan linda que enamora</span></h3>
         <!--C A R O U S E L  card 1-->
-        <div class="row">
-            <div id="carouselcard1control" class="carousel slide" data-ride="carousel" data-interval="false">
-                 <div class="carousel-inner">
-                    <div class="carousel-item active">
-                         <div class="row">
-                            <div class="col-md-3 col-sm-6 col-6">
-                                <div class="card cardprimary bg-dark mb-3">
-                                    <div class="inner">
-                                        <img src="./images/salta-0.jpg" class="card-img-top">
-                                    </div>
-                                    <div class="card-body">
-                                            <h6 class="card-subtitle">Vuelos</h6>
-                                            <h5 class="card-title">LATAM</h5>
-                                            <div class="card-details align-items-center">
-                                                 <span class="badge badge-secondary mr-3">9.7</span>
-                                                 <div class="stars-container">
-                                                     <i class="fas fa-star"></i>
-                                                     <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                </div>
-                                            </div>
-                                            <div class="badge badge-secondary p-2 mt-3">Incluye ida y vuelta</div>
-                                        </div>
-                                    <div><hr class="bg-light"/></div>
-                                    <div class="card-body p-2 d-flex justify-content-between">
-                                        <div>
-                                            <p class="small m-0">Precio por adulto desde</p>
-                                            <h5 class="price-size m-0">$18000<span class="price">$36000</span></h5>
-                                        </div>
-                                        <div class="text-right">
-                                            <h3><span class="badge badge-success">-50%</span></h3>                        
-                                        </div>
-                                    </div>
+            <div id="carouselcard1control" class="carousel slide my-3" data-ride="carousel" data-interval="false">
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                        <div class="row">
+                        <div class="col-md-3 col-sm-6 col-6">
+                            <div class="card cardprimary bg-dark mb-3">
+                                <div class="inner">
+                                    <img src="./images/salta-0.jpg" class="card-img-top">
                                 </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 col-6">
-                                <div class="card cardprimary bg-dark mb-3">
-                                    <div class="inner">
-                                        <img src="./images/salta-1.jpg" class="card-img-top" >
-                                    </div>
-                                    
-                                    <div class="card-body">
-                                        <h6 class="card-subtitle">Actividades</h6>
-                                        <h5 class="card-title">Cafayate</h5>
+                                <div class="card-body">
+                                        <h6 class="card-subtitle">Vuelos</h6>
+                                        <h5 class="card-title">LATAM</h5>
                                         <div class="card-details align-items-center">
-                                            <span class="badge badge-secondary mr-3">9.7</span>
-                                            <div class="stars-container">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                        </div> 
-                                        <div class="badge badge-secondary p-2 mt-3">Incluye ida y vuelta</div> 
-                                    </div>
-                                    <div><hr class="bg-light"/></div>
-                                    <div class="card-body p-2">
-                                        <div class="card-body p-2 d-flex justify-content-between">
-                                            <div>
-                                                <p class="small m-0">Precio por adulto desde</p>
-                                                <h5 class="price-size m-0">$2600</h5>
-                                            </div>          
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 col-6">
-                                <div class="card cardprimary bg-dark mb-3">
-                                    <div class="inner">
-                                        <img src="./images/salta-2.jpg" class="card-img-top">
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="card-subtitle">Actividades</h6>
-                                        <h5 class="card-title">Salinas grandes</h5>
-                                        <div class="card-details align-items-center">
-                                            <span class="badge badge-secondary mr-3">9.7</span>
-                                            <div class="stars-container">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
+                                                <span class="badge badge-secondary mr-3">9.7</span>
+                                                <div class="stars-container">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
@@ -296,157 +244,162 @@
                                         </div>
                                         <div class="badge badge-secondary p-2 mt-3">Incluye ida y vuelta</div>
                                     </div>
-                                    <div><hr class="bg-light"/></div>
-                                    <div class="card-body p-2">
-                                        <div class="card-body p-2 d-flex justify-content-between">
-                                            <div>
-                                                <p class="small m-0">Precio por adulto desde</p>
-                                                <h5 class="price-size m-0">$3600</h5>
-                                            </div>           
-                                        </div>
+                                <div><hr class="bg-light"/></div>
+                                <div class="card-body p-2 d-flex justify-content-between">
+                                    <div>
+                                        <p class="small m-0">Precio por adulto desde</p>
+                                        <h5 class="price-size m-0">$18000<span class="price">$36000</span></h5>
+                                    </div>
+                                    <div class="text-right">
+                                        <h3><span class="badge badge-success">-50%</span></h3>                        
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-sm-6 col-6">
-                                <div class="card cardprimary bg-dark mb-3">
-                                    <div class="inner">
-                                        <img src="./images/salta-4.jpg" class="card-img-top" >
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="card-subtitle">Alojamiento</h6>
-                                        <h5 class="card-title">Hotel</h5>
-                                        <div class="card-details align-items-center">
-                                            <span class="badge badge-secondary mr-3">7.7</span>
-                                            <div class="stars-container">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-6">
+                            <div class="card cardprimary bg-dark mb-3">
+                                <div class="inner">
+                                    <img src="./images/salta-1.jpg" class="card-img-top" >
+                                </div>
+                                <div class="card-body">
+                                    <h6 class="card-subtitle">Actividades</h6>
+                                    <h5 class="card-title">Cafayate</h5>
+                                    <div class="card-details align-items-center">
+                                        <span class="badge badge-secondary mr-3">9.7</span>
+                                        <div class="stars-container">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
                                         </div>
-                                        <div class="badge badge-secondary p-2 mt-3">Familiar</div>
+                                    </div> 
+                                    <div class="badge badge-secondary p-2 mt-3">Incluye ida y vuelta</div> 
+                                </div>
+                                <div><hr class="bg-light"/></div>
+                                <div class="card-body p-2">
+                                    <div class="card-body p-2 d-flex justify-content-between">
+                                        <div>
+                                            <p class="small m-0">Precio por adulto desde</p>
+                                            <h5 class="price-size m-0">$2600</h5>
+                                        </div>          
                                     </div>
-                                    <div><hr class="bg-light"/></div>
-                                    <div class="card-body p-2">
-                                        <div class="card-body p-2 d-flex justify-content-between">
-                                            <div>
-                                                <p class="small m-0">Precio por adulto desde</p>
-                                                <h5 class="price-size m-0">$5600</h5>
-                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-6">
+                            <div class="card cardprimary bg-dark mb-3">
+                                <div class="inner">
+                                    <img src="./images/salta-2.jpg" class="card-img-top">
+                                </div>
+                                <div class="card-body">
+                                    <h6 class="card-subtitle">Actividades</h6>
+                                    <h5 class="card-title">Salinas grandes</h5>
+                                    <div class="card-details align-items-center">
+                                        <span class="badge badge-secondary mr-3">9.7</span>
+                                        <div class="stars-container">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="badge badge-secondary p-2 mt-3">Incluye ida y vuelta</div>
+                                </div>
+                                <div><hr class="bg-light"/></div>
+                                <div class="card-body p-2">
+                                    <div class="card-body p-2 d-flex justify-content-between">
+                                        <div>
+                                            <p class="small m-0">Precio por adulto desde</p>
+                                            <h5 class="price-size m-0">$3600</h5>
+                                        </div>           
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-6">
+                            <div class="card cardprimary bg-dark mb-3">
+                                <div class="inner">
+                                    <img src="./images/salta-4.jpg" class="card-img-top" >
+                                </div>
+                                <div class="card-body">
+                                    <h6 class="card-subtitle">Alojamiento</h6>
+                                    <h5 class="card-title">Hotel</h5>
+                                    <div class="card-details align-items-center">
+                                        <span class="badge badge-secondary mr-3">7.7</span>
+                                        <div class="stars-container">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="badge badge-secondary p-2 mt-3">Familiar</div>
+                                </div>
+                                <div><hr class="bg-light"/></div>
+                                <div class="card-body p-2">
+                                    <div class="card-body p-2 d-flex justify-content-between">
+                                        <div>
+                                            <p class="small m-0">Precio por adulto desde</p>
+                                            <h5 class="price-size m-0">$5600</h5>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <div class="row justify-content-center">
-                            <div class="col-md-3 col-sm-6 col-6">
-                                <div class="card cardprimary bg-dark mb-3">
-                                    <div class="inner">
-                                        <img src="./images/salta-5.jpg" class="card-img-top">
-                                    </div>
-                                    <div class="card-body">
-                                        <h6 class="card-subtitle">Hotel</h6>
-                                        <h5 class="card-title">De Lujo</h5>
-                                        <div class="card-details align-items-center">
-                                        <span class="badge badge-secondary mr-3">8.7</span>
-                                        <div class="stars-container">
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>    
-                                        </div>
-                                    </div>
-                                    <div class="badge badge-secondary p-2 mt-3">Incluye ida y vuelta</div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <div class="col-md-3 col-sm-6 col-6">
+                            <div class="card cardprimary bg-dark mb-3">
+                                <div class="inner">
+                                    <img src="./images/salta-5.jpg" class="card-img-top">
                                 </div>
-                                        <div><hr class="bg-light"/></div>
-                                        <div class="card-body p-2">
-                                            <div class="card-body p-2 d-flex justify-content-between">
-                                                <div>
-                                                    <p class="small m-0">Precio por adulto desde</p>
-                                                    <h5 class="price-size m-0">$1800</h5>
-                                                </div>
+                                <div class="card-body">
+                                    <h6 class="card-subtitle">Hotel</h6>
+                                    <h5 class="card-title">De Lujo</h5>
+                                    <div class="card-details align-items-center">
+                                    <span class="badge badge-secondary mr-3">8.7</span>
+                                    <div class="stars-container">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>    
+                                    </div>
+                                </div>
+                                <div class="badge badge-secondary p-2 mt-3">Incluye ida y vuelta</div>
+                            </div>
+                                    <div><hr class="bg-light"/></div>
+                                    <div class="card-body p-2">
+                                        <div class="card-body p-2 d-flex justify-content-between">
+                                            <div>
+                                                <p class="small m-0">Precio por adulto desde</p>
+                                                <h5 class="price-size m-0">$1800</h5>
                                             </div>
                                         </div>
-                                </div>       
-                            </div>
-                            <div class="col-md-3 col-sm-6 col-6">
-                                    <div class="card cardprimary bg-dark mb-3">
-                                        <div class="inner">
-                                            <img src="./images/salta-6.jpg" class="card-img-top" >
-                                        </div>
-                                        <div class="card-body">
-                                                <h6 class="card-subtitle">Actividades</h6>
-                                                <h5 class="card-title">mountain bike</h5>
-                                                <div class="card-details align-items-center">
-                                                    <span class="badge badge-secondary mr-3">9.7</span>
-                                                    <div class="stars-container">
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i> 
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>   
-                                                    </div>
-                                                </div>
-                                                <div class="badge badge-secondary p-2 mt-3">Incluye almuerzo</div>
-                                            </div>
-                                            <div><hr class="bg-light"/></div>
-                                            <div class="card-body p-2">
-                                                <div class="card-body p-2 d-flex justify-content-between">
-                                                    <div>
-                                                        <p class="small m-0">Precio por adulto desde</p>
-                                                        <h5 class="price-size m-0">$2000</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                    </div>       
-                            </div>
-                            <div class="col-md-3 col-sm-6 col-6">
-                                    <div class="card cardprimary bg-dark mb-3">
-                                        <div class="inner">
-                                            <img src="./images/salta-3.jpg" class="card-img-top" >
-                                        </div>
-                                            <div class="card-body">
-                                                <h6 class="card-subtitle">Actividades</h6>
-                                                <h5 class="card-title">Cabildo histórico</h5>
-                                                <div class="card-details align-items-center">
-                                                    <span class="badge badge-secondary mr-3">7.7</span>
-                                                    <div class="stars-container">
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>    
-                                                    </div>
-                                                </div>
-                                                <div class="badge badge-secondary p-2 mt-3">Incluye entrada</div>
-                                            </div>
-                                            <div><hr class="bg-light"/></div>
-                                            <div class="card-body p-2">
-                                                <div class="card-body p-2 d-flex justify-content-between">
-                                                    <div>
-                                                        <p class="small m-0">Precio desde</p>
-                                                        <h5 class="price-size m-0">$600</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                    </div>       
-                            </div>
-                            <div class="col-md-3 col-sm-6 col-6">
+                                    </div>
+                            </div>       
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-6">
                                 <div class="card cardprimary bg-dark mb-3">
                                     <div class="inner">
-                                        <img src="./images/salta-7.jpg" class="card-img-top" >
+                                        <img src="./images/salta-6.jpg" class="card-img-top" >
                                     </div>
                                     <div class="card-body">
-                                            <h6 class="card-subtitle">Alojamiento</h6>
-                                            <h5 class="card-title">Hotel</h5>
+                                            <h6 class="card-subtitle">Actividades</h6>
+                                            <h5 class="card-title">mountain bike</h5>
                                             <div class="card-details align-items-center">
-                                                <span class="badge badge-secondary mr-3">7.7</span>
+                                                <span class="badge badge-secondary mr-3">9.7</span>
                                                 <div class="stars-container">
                                                     <i class="fas fa-star"></i>
                                                     <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>    
+                                                    <i class="fas fa-star"></i> 
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>   
                                                 </div>
                                             </div>
-                                            <div class="badge badge-secondary p-2 mt-3">Relajacion</div>
+                                            <div class="badge badge-secondary p-2 mt-3">Incluye almuerzo</div>
                                         </div>
                                         <div><hr class="bg-light"/></div>
                                         <div class="card-body p-2">
@@ -458,263 +411,326 @@
                                             </div>
                                         </div>
                                 </div>       
-                            </div>
-                            
                         </div>
-                    </div>
-                    <a class="carousel-control-prev controls-position" href="#carouselcard1control" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next controls-position" href="#carouselcard1control" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-       </div>
-    </div>
-    <!--CAROUSEL-->
-</div>
-    <!-- END PRIMERA TARJETA -->
-</div>
-    <!-- PRIMERA TARJETA -->   
-    <!-- END PRIMERA TARJETA -->
-    <!-- SEGUNDA TARJETA -->
-        <div class="row">    
-        </div>   
-    <!-- END SEGUNDA TARJETA -->
-    <!-- TERCERA TARJETA -->
-    <div class="row">
-        <div class="col-12">
-            <h5 class="mt-3 ml-n3">Alojate</h5>
-        </div>
-        <div class="col-12">
-            <h3 class="ml-n3">Barelona: el confort a tu servicio</h3>
-        </div>
-        <!-- C A R O U S E L -->
-        <div class="row">
-            <div id="carouselBcn" class="carousel slide" data-ride="carousel"  data-interval="false">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="row">
-                            <div class="col-md-3 col-sm-6 col-6">
-                                <div class="card bg-dark mb-3 card-box-shadow">
-                                    <img src="./images/hotel-bcn-1.jpg" alt="" class="card-img-top" />
-                                    <div class="card-body">
-                                        <h6 class="card-subtitle">Hotel</h6>
-                                        <h5 class="card-title">Hotel Silken</h5>
-                                        <div class="card-details align-items-center">
-                                            <span class="badge badge-secondary mr-2">7.7</span>
-                                            <div class="stars-container">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
+                        <div class="col-md-3 col-sm-6 col-6">
+                                <div class="card cardprimary bg-dark mb-3">
+                                    <div class="inner">
+                                        <img src="./images/salta-3.jpg" class="card-img-top" >
+                                    </div>
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">Actividades</h6>
+                                            <h5 class="card-title">Cabildo histórico</h5>
+                                            <div class="card-details align-items-center">
+                                                <span class="badge badge-secondary mr-3">7.7</span>
+                                                <div class="stars-container">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>    
+                                                </div>
+                                            </div>
+                                            <div class="badge badge-secondary p-2 mt-3">Incluye entrada</div>
+                                        </div>
+                                        <div><hr class="bg-light"/></div>
+                                        <div class="card-body p-2">
+                                            <div class="card-body p-2 d-flex justify-content-between">
+                                                <div>
+                                                    <p class="small m-0">Precio desde</p>
+                                                    <h5 class="price-size m-0">$600</h5>
+                                                </div>
                                             </div>
                                         </div>
-                                        <span class="badge badge-secondary p-2 mt-3">Desayuno</span>
-                                    </div>
-                                    <div class="card-body border-top p-2">
-                                        <p class="small m-0">Precio por noche</p>
-                                        <p class="price-size m-0">$2.000</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 col-6">
-                                <div class="card bg-dark mb-3 card-box-shadow">
-                                    <img src="./images/hotel-bcn-2.jpg" alt="" class="card-img-top" />
-                                    <div class="card-body">
-                                        <h6 class="card-subtitle">Hotel</h6>
-                                        <h5 class="card-title">Hotel Barcelona 1882</h5>
-                                        <div class="card-details align-items-center">
-                                            <span class="badge badge-secondary mr-2">9.8</span>
-                                            <div class="stars-container">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                        </div>
-                                        <span class="badge badge-secondary p-2 mt-3">De lujo</span>
-                                    </div>
-                                    <div class="card-body border-top p-2">
-                                        <p class="small m-0">Precio por noche</p>
-                                        <p class="price-size m-0">$2.786</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 col-6">
-                                <div class="card bg-dark mb-3 card-box-shadow">
-                                    <img src="./images/hotel-bcn-3.jpg" alt="" class="card-img-top" />
-                                    <div class="card-body">
-                                        <h6 class="card-subtitle">Hotel</h6>
-                                        <h5 class="card-title">Hotel Rec Barcelona</h5>
-                                        <div class="card-details align-items-center">
-                                            <span class="badge badge-secondary mr-2">8</span>
-                                            <div class="stars-container">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                        </div>
-                                        <span class="badge badge-secondary p-2 mt-3">Familiar</span>
-                                    </div>
-                                    <div class="card-body border-top p-2">
-                                        <p class="small m-0">Precio por noche</p>
-                                        <p class="price-size m-0">$2.425</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 col-6">
-                                <div class="card bg-dark mb-3 card-box-shadow">
-                                    <img src="./images/hotel-bcn-1.jpg" alt="Hoter Ciutadella" class="card-img-top" />
-                                    <div class="card-body">
-                                        <h6 class="card-subtitle">Hotel</h6>
-                                        <h5 class="card-title">Hotel Ciutadella</h5>
-                                        <div class="card-details align-items-center">
-                                            <span class="badge badge-secondary mr-2">7</span>
-                                            <div class="stars-container">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                        </div>
-                                        <span class="badge badge-secondary p-2 mt-3">Relajación</span>
-                                    </div>
-                                    <div class="card-body border-top p-2">
-                                        <p class="small m-0">Precio por noche</p>
-                                        <p class="price-size m-0">$1.980</p>
-                                    </div>
-                                </div>
-                            </div>
+                                </div>       
                         </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row justify-content-center">
-                            <div class="col-md-3 col-sm-6 col-6">
-                                <div class="card bg-dark mb-3 card-box-shadow">
-                                    <img src="./images/hotel-bcn-5.jpg" alt="" class="card-img-top" />
-                                    <div class="card-body">
-                                        <h6 class="card-subtitle">Hotel</h6>
-                                        <h5 class="card-title">Hotel Iberostar</h5>
+                        <div class="col-md-3 col-sm-6 col-6">
+                            <div class="card cardprimary bg-dark mb-3">
+                                <div class="inner">
+                                    <img src="./images/salta-7.jpg" class="card-img-top" >
+                                </div>
+                                <div class="card-body">
+                                        <h6 class="card-subtitle">Alojamiento</h6>
+                                        <h5 class="card-title">Hotel</h5>
                                         <div class="card-details align-items-center">
-                                            <span class="badge badge-secondary mr-2">8.5</span>
+                                            <span class="badge badge-secondary mr-3">7.7</span>
                                             <div class="stars-container">
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>    
                                             </div>
                                         </div>
-                                        <span class="badge badge-success p-2 mt-3">Oferta Especial</span>
+                                        <div class="badge badge-secondary p-2 mt-3">Relajacion</div>
                                     </div>
-                                    <div class="card-body border-top p-2">
-                                        <p class="small m-0">Precio por noche</p>
-                                        <p class="price-size m-0">$1.750</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 col-6">
-                                <div class="card bg-dark mb-3 card-box-shadow">
-                                    <img src="./images/hotel-bcn-6.jpg" alt="" class="card-img-top">
-                                    <div class="card-body">
-                                        <h6 class="card-subtitle">Hotel</h6>
-                                        <h5 class="card-title">Hotel Yurban</h5>
-                                        <div class="card-details align-items-center">
-                                            <span class="badge badge-secondary mr-2">9</span>
-                                            <div class="stars-container">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
+                                    <div><hr class="bg-light"/></div>
+                                    <div class="card-body p-2">
+                                        <div class="card-body p-2 d-flex justify-content-between">
+                                            <div>
+                                                <p class="small m-0">Precio por adulto desde</p>
+                                                <h5 class="price-size m-0">$2000</h5>
                                             </div>
                                         </div>
-                                        <span class="badge badge-secondary p-2 mt-3">Colonial</span>
                                     </div>
-                                    <div class="card-body border-top p-2">
-                                        <p class="small m-0">Precio por noche</p>
-                                        <p class="price-size m-0">$2.750</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 col-6">
-                                <div class="card bg-dark mb-3 card-box-shadow">
-                                    <img src="./images/hotel-bcn-7.jpg" alt="" class="card-img-top" />
-                                    <div class="card-body">
-                                        <h6 class="card-subtitle">Hotel</h6>
-                                        <h5 class="card-title">Hotel Almanac</h5>
-                                        <div class="card-details align-items-center">
-                                            <span class="badge badge-secondary mr-2">8.3</span>
-                                            <div class="stars-container">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                        </div>
-                                        <span class="badge badge-secondary p-2 mt-3">Spa</span>
-                                    </div>
-                                    <div class="card-body border-top p-2">
-                                        <p class="small m-0">Precio por noche</p>
-                                        <p class="price-size m-0">$2.180</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 col-6">
-                                <div class="card bg-dark mb-3 card-box-shadow">
-                                    <img src="./images/hotel-bcn-8.jpg" alt="" class="card-img-top">
-                                    <div class="card-body">
-                                        <h6 class="card-subtitle">Hotel</h6>
-                                        <h5 class="card-title">Hotel Hotel The One</h5>
-                                        <div class="card-details align-items-center">
-                                            <span class="badge badge-secondary mr-2">8</span>
-                                            <div class="stars-container">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                        </div>
-                                        <span class="badge badge-secondary p-2 mt-3">Aire Libre</span>
-                                    </div>
-                                    <div class="card-body border-top p-2">
-                                        <p class="small m-0">Precio por noche</p>
-                                        <p class="price-size m-0">$2.200</p>
-                                    </div>
-                                </div>
-                            </div>
+                            </div>       
                         </div>
+                        
                     </div>
                 </div>
-                <a class="carousel-control-prev controls-position" href="#carouselBcn" role="button" data-slide="prev">
+                <a class="carousel-control-prev controls-position" href="#carouselcard1control" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next controls-position" href="#carouselBcn" role="button" data-slide="next">
+                <a class="carousel-control-next controls-position" href="#carouselcard1control" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
+                </div>
+            </div> 
+        </div>
+        <!--END CAROUSEL-->
+    </div>
+    <!-- END PRIMERA TARJETA -->
+    <!-- SEGUNDA TARJETA -->
+    <div class="row">
+        <div class="col-12">
+            <h5 class="my-3">Alojate</h5>
+            <h3 class="my-3">Barelona: el confort a tu servicio</h3>
+            <!-- C A R O U S E L -->
+            <div id="carouselBcn" class="carousel slide my-3" data-ride="carousel" data-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-6 col-6">
+                                    <div class="card cardprimary bg-dark mb-3">
+                                        <div class="inner">
+                                            <img src="./images/hotel-bcn-1.jpg" alt="" class="card-img-top" />
+                                        </div>
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">Hotel</h6>
+                                            <h5 class="card-title">Hotel Silken</h5>
+                                            <div class="card-details align-items-center">
+                                                <span class="badge badge-secondary mr-2">7.7</span>
+                                                <div class="stars-container">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <span class="badge badge-secondary p-2 mt-3">Desayuno</span>
+                                        </div>
+                                        <div class="card-body border-top p-2">
+                                            <p class="small m-0">Precio por noche</p>
+                                            <p class="price-size m-0">$2.000</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-6">
+                                    <div class="card cardprimary bg-dark mb-3 ">
+                                        <div class="inner">
+                                            <img src="./images/hotel-bcn-2.jpg" alt="" class="card-img-top" />
+                                        </div>
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">Hotel</h6>
+                                            <h5 class="card-title">Hotel Barcelona 1882</h5>
+                                            <div class="card-details align-items-center">
+                                                <span class="badge badge-secondary mr-2">9.8</span>
+                                                <div class="stars-container">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <span class="badge badge-secondary p-2 mt-3">De lujo</span>
+                                        </div>
+                                        <div class="card-body border-top p-2">
+                                            <p class="small m-0">Precio por noche</p>
+                                            <p class="price-size m-0">$2.786</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-6">
+                                    <div class="card cardprimary bg-dark mb-3">
+                                        <div class="inner">
+                                            <img src="./images/hotel-bcn-3.jpg" alt="" class="card-img-top" />
+                                        </div>
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">Hotel</h6>
+                                            <h5 class="card-title">Hotel Rec Barcelona</h5>
+                                            <div class="card-details align-items-center">
+                                                <span class="badge badge-secondary mr-2">8</span>
+                                                <div class="stars-container">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <span class="badge badge-secondary p-2 mt-3">Familiar</span>
+                                        </div>
+                                        <div class="card-body border-top p-2">
+                                            <p class="small m-0">Precio por noche</p>
+                                            <p class="price-size m-0">$2.425</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-6">
+                                    <div class="card cardprimary bg-dark mb-3">
+                                        <div class="inner">
+                                            <img src="./images/hotel-bcn-1.jpg" alt="Hotel Ciutadella" class="card-img-top" />
+                                        </div>
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">Hotel</h6>
+                                            <h5 class="card-title">Hotel Ciutadella</h5>
+                                            <div class="card-details align-items-center">
+                                                <span class="badge badge-secondary mr-2">7</span>
+                                                <div class="stars-container">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <span class="badge badge-secondary p-2 mt-3">Relajación</span>
+                                        </div>
+                                        <div class="card-body border-top p-2">
+                                            <p class="small m-0">Precio por noche</p>
+                                            <p class="price-size m-0">$1.980</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row justify-content-center">
+                                <div class="col-md-3 col-sm-6 col-6">
+                                    <div class="card cardprimary bg-dark mb-3">
+                                        <div class="inner">
+                                            <img src="./images/hotel-bcn-5.jpg" alt="" class="card-img-top" />
+                                        </div>
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">Hotel</h6>
+                                            <h5 class="card-title">Hotel Iberostar</h5>
+                                            <div class="card-details align-items-center">
+                                                <span class="badge badge-secondary mr-2">8.5</span>
+                                                <div class="stars-container">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <span class="badge badge-success p-2 mt-3">Oferta Especial</span>
+                                        </div>
+                                        <div class="card-body border-top p-2">
+                                            <p class="small m-0">Precio por noche</p>
+                                            <p class="price-size m-0">$1.750</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-6">
+                                    <div class="card cardprimary bg-dark mb-3">
+                                        <div class="inner">
+                                            <img src="./images/hotel-bcn-6.jpg" alt="" class="card-img-top">
+                                        </div>
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">Hotel</h6>
+                                            <h5 class="card-title">Hotel Yurban</h5>
+                                            <div class="card-details align-items-center">
+                                                <span class="badge badge-secondary mr-2">9</span>
+                                                <div class="stars-container">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <span class="badge badge-secondary p-2 mt-3">Colonial</span>
+                                        </div>
+                                        <div class="card-body border-top p-2">
+                                            <p class="small m-0">Precio por noche</p>
+                                            <p class="price-size m-0">$2.750</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-6">
+                                    <div class="card cardprimary bg-dark mb-3">
+                                        <div class="inner">
+                                            <img src="./images/hotel-bcn-7.jpg" alt="" class="card-img-top" />
+                                        </div>
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">Hotel</h6>
+                                            <h5 class="card-title">Hotel Almanac</h5>
+                                            <div class="card-details align-items-center">
+                                                <span class="badge badge-secondary mr-2">8.3</span>
+                                                <div class="stars-container">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <span class="badge badge-secondary p-2 mt-3">Spa</span>
+                                        </div>
+                                        <div class="card-body border-top p-2">
+                                            <p class="small m-0">Precio por noche</p>
+                                            <p class="price-size m-0">$2.180</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-6">
+                                    <div class="card cardprimary bg-dark mb-3">
+                                        <div class="inner">
+                                            <img src="./images/hotel-bcn-8.jpg" alt="" class="card-img-top">
+                                        </div>
+                                        <div class="card-body">
+                                            <h6 class="card-subtitle">Hotel</h6>
+                                            <h5 class="card-title">Hotel Hotel The One</h5>
+                                            <div class="card-details align-items-center">
+                                                <span class="badge badge-secondary mr-2">8</span>
+                                                <div class="stars-container">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <span class="badge badge-secondary p-2 mt-3">Aire Libre</span>
+                                        </div>
+                                        <div class="card-body border-top p-2">
+                                            <p class="small m-0">Precio por noche</p>
+                                            <p class="price-size m-0">$2.200</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev controls-position" href="#carouselBcn" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next controls-position" href="#carouselBcn" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+
             </div>
         </div>
         <!-- E N D   C A R O U S E L -->
     </div>
-    <!-- END TERCERA TARJETA -->
-    <!-- CUARTA TARJETA -->
+    <!-- END SEGUNDA TARJETA -->
+    <!-- TERCERA TARJETA -->
     <div class="row">
         <div class="col-12">
-            <h5 class="mt-3 ml-n3">Conocé</h5>
-        </div>
-        <div class="col-12">
-            <h3 class="ml-n3">París, arte, romance e historia</h3>
-        </div>
-        <!-- C A R O U S E L -->
-        <div class="row">
-            <div id="carouselParis" class="carousel slide" data-ride="carousel"  data-interval="false">
+            <h5 class="mt-3">Conocé</h5>
+            <h3 class="mt-3">París, arte, romance e historia</h3>
+            <!-- C A R O U S E L -->
+            <div id="carouselParis" class="carousel slide my-3" data-ride="carousel"  data-interval="false">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="row">
                             <div class="col-md-3 col-sm-6 col-6">
-                                <div class="card bg-dark mb-3 card-box-shadow">
-                                    <img src="./images/paris-1.jpg" alt="" class="card-img-top" />
+                                <div class="card cardprimary bg-dark mb-3">
+                                    <div class="inner">
+                                        <img src="./images/paris-1.jpg" alt="" class="card-img-top" />
+                                    </div>
                                     <div class="card-body">
                                         <h6 class="card-subtitle">Hotel</h6>
                                         <h5 class="card-title">Hotel Golden Paris</h5>
@@ -736,8 +752,10 @@
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-6 col-6">
-                                <div class="card bg-dark mb-3 card-box-shadow">
-                                    <img src="./images/paris-8.jpg" alt="" class="card-img-top" />
+                                <div class="card cardprimary bg-dark mb-3">
+                                    <div class="inner">
+                                        <img src="./images/paris-8.jpg" alt="" class="card-img-top" />
+                                    </div>
                                     <div class="card-body m-card-body-bottom">
                                         <h6 class="card-subtitle">Actividades</h6>
                                         <h5 class="card-title">Catedral Notre Dame</h5>
@@ -749,8 +767,10 @@
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-6 col-6">
-                                <div class="card bg-dark mb-3 card-box-shadow">
-                                    <img src="./images/paris-2.jpg" alt="" class="card-img-top" />
+                                <div class="card cardprimary bg-dark mb-3">
+                                    <div class="inner">
+                                        <img src="./images/paris-2.jpg" alt="" class="card-img-top" />
+                                    </div>
                                     <div class="card-body">
                                         <h6 class="card-subtitle">Hotel</h6>
                                         <h5 class="card-title">Hotel Le Regent</h5>
@@ -772,8 +792,10 @@
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-6 col-6">
-                                <div class="card bg-dark mb-3 card-box-shadow">
-                                    <img src="./images/paris-7.jpg" alt="Hoter Ciutadella" class="card-img-top" />
+                                <div class="card cardprimary bg-dark mb-3">
+                                    <div class="inner">
+                                        <img src="./images/paris-7.jpg" alt="Hoter Ciutadella" class="card-img-top" />
+                                    </div>
                                     <div class="card-body m-card-body-bottom">
                                         <h6 class="card-subtitle">Visitá</h6>
                                         <h5 class="card-title">Sacre Cuore</h5>
@@ -789,8 +811,10 @@
                     <div class="carousel-item">
                         <div class="row justify-content-center">
                             <div class="col-md-3 col-sm-6 col-6">
-                                <div class="card bg-dark mb-3 card-box-shadow">
-                                    <img src="./images/paris-3.jpg" alt="" class="card-img-top" />
+                                <div class="card cardprimary bg-dark mb-3">
+                                    <div class="inner">
+                                        <img src="./images/paris-3.jpg" alt="" class="card-img-top" />
+                                    </div>
                                     <div class="card-body">
                                         <h6 class="card-subtitle">Hotel</h6>
                                         <h5 class="card-title">Hotel Hibiscus</h5>
@@ -812,8 +836,10 @@
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-6 col-6">
-                                <div class="card bg-dark mb-3 card-box-shadow">
-                                    <img src="./images/paris-6.jpg" alt="" class="card-img-top">
+                                <div class="card cardprimary bg-dark mb-3">
+                                    <div class="inner">
+                                        <img src="./images/paris-6.jpg" alt="" class="card-img-top">
+                                    </div>
                                     <div class="card-body m-card-body-bottom-2">
                                         <h6 class="card-subtitle">Actividades</h6>
                                         <h5 class="card-title">Visita guiada al Palacio de Versailles</h5>
@@ -826,8 +852,10 @@
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-6 col-6">
-                                <div class="card bg-dark mb-3 card-box-shadow">
-                                    <img src="./images/paris-4.jpg" alt="" class="card-img-top" />
+                                <div class="card cardprimary bg-dark mb-3">
+                                    <div class="inner">
+                                        <img src="./images/paris-4.jpg" alt="" class="card-img-top" />
+                                    </div>
                                     <div class="card-body">
                                         <h6 class="card-subtitle">Hotel</h6>
                                         <h5 class="card-title">Hotel Vintimille</h5>
@@ -849,8 +877,10 @@
                                 </div>
                             </div>      
                             <div class="col-md-3 col-sm-6 col-6">
-                                <div class="card bg-dark card-box-shadow">
-                                    <img src="./images/paris-5.jpg" alt="" class="card-img-top">
+                                <div class="card cardprimary bg-dark mb-3">
+                                    <div class="inner">
+                                        <img src="./images/paris-5.jpg" alt="" class="card-img-top">
+                                    </div>
                                     <div class="card-body m-card-body-bottom">
                                         <h6 class="card-subtitle">Actividades</h6>
                                         <h5 class="card-title">Museo Louvre</h5>
@@ -863,34 +893,30 @@
                             </div>
                         </div>
                     </div>
+                    <a class="carousel-control-prev controls-position" href="#carouselParis" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next controls-position" href="#carouselParis" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
-                <a class="carousel-control-prev controls-position" href="#carouselParis" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next controls-position" href="#carouselParis" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
             </div>
+            <!-- E N D   C A R O U S E L -->
         </div>
-        <!-- E N D   C A R O U S E L -->
     </div>
-    <!-- END CUARTA TARJETA -->
+    <!-- END TERCERA TARJETA -->
     <!-- RECIBIR OFERTAS -->
     <div class="row">
         <div class="col-md-6"></div>
         <div class="col-md-6"></div>
     </div>
     <!-- END RECIBIR OFERTAS -->
-    <!-- QUINTA TARJETA -->
-    <div class="row"> 
-    </div>
-    <!-- END QUINTA TARJETA -->
     <!-- COMENTARIOS DESTACADOS -->
      <div class="row">
              <div class="col-md-3 col-sm-6 col-xs-12">
-                     <div class="card card-up">
+                     <div class="card card-up my-3">
                          <div class="card-body text-center">
                              <h6 class="text-info"><i class="fas fa-star"></i>  TRUSTPILOT</h6>
                              <br>
@@ -908,7 +934,7 @@
              </div>
    
              <div class="col-md-3 col-sm-6 col-xs-12">
-                 <div class="card card-up">
+                 <div class="card card-up my-3">
                      <div class="card-body">
                         <h6 class="text-dark"><i class="fas fa-user"></i>  Romina Farias</h6>
                         <p class="text-muted small">Hace 17 horas</p>   
@@ -918,33 +944,33 @@
              </div>
    
              <div class="col-md-3 col-sm-6 col-xs-12">
-                 <div class="card card-up">
+                 <div class="card card-up my-3">
                      <div class="card-body">
-                         <h6 class="text-dark"><i class="fas fa-user"></i>  Paolo Ruiz</h6>
+                         <h6 class="text-dark"><i class="fas fa-user"></i>Paolo Ruiz</h6>
                         <p class="text-muted small">Hace 19 horas</p>  
                         <p class="text-dark small font-italic">Muy confiable, cumple todo, es fácil contratar y encontrar lo que buscas, con muchas opciones de pago</p>
                      </div>
                  </div>
              </div>
    
-             <div class="col-md-3 col-sm-6 col-xs-12">
-                 <div class="card card-up">
-                     <div class="card-body">
-                        <h6 class="text-dark"><i class="fas fa-user"></i>  Ramiro Heluan</h6>
-                        <p class="text-muted small">Hace 23 horas</p>   
-                        <p class="text-dark small font-italic">Por suerte me ofrecieron un paquete tal cual lo necesitaba! Gracias por la atención de la asesora de ventas Betiana que contesto todas mis dudas. Gracias</p>
-                     </div>
-                 </div>
-             </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="card card-up my-3">
+                <div class="card-body">
+                    <h6 class="text-dark"><i class="fas fa-user"></i>  Ramiro Heluan</h6>
+                    <p class="text-muted small">Hace 23 horas</p>   
+                    <p class="text-dark small font-italic">Por suerte me ofrecieron un paquete tal cual lo necesitaba! Gracias por la atención de la asesora de ventas Betiana que contesto todas mis dudas. Gracias</p>
+                </div>
+            </div>
+        </div>
      </div>
     <!-- END COMENTARIOS DESTACADOS -->
     </div><!-- END MAIN CONTAINER -->
-<div class="bg_navbar">
+    <div class="bg_navbar">
     <div class="container"> <!-- SECONDARY CONTAINER -->
         <!-- GUIA DE VIAJES -->
-        <div class="row justify-content-between p-3">
-            <div class="col-md-12 col-sm-6 col-6 p-4">
-                <h4>Animate a elegir FlyRolling para tus viajes</h4>
+        <div class="row justify-content-between">
+            <div class="col-md-12 col-sm-6 col-6">
+                <h4 class="p-3">Animate a elegir FlyRolling para tus viajes</h4>
             </div>
         </div>
             <div class="row justify-content-center">
@@ -1008,18 +1034,18 @@
         </div>
                 <!--END GUIA DE VIAJES-->
     </div>  <!-- END SECONDARY CONTAINER -->
-</div>
+    </div>
         <!-- END GUIA DE VIAJES -->
         <!--SECOND GUIA DE VIAJES-->
         <div class="container">
-            <div class="row justify-content-center m-4">
-                <div class="col-md-12 col-sm-12 p-4 col-6">
-                    <h4>Compra en FlyRolling todo para tu viaje</h4>
+            <div class="row justify-content-center">
+                <div class="col-md-12 col-sm-12 col-6">
+                    <h4 class="my-3">Compra en FlyRolling todo para tu viaje</h4>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-3 col-sm-12 col-12"> 
-                    <div class="card mb-3 cardsecondguide">
+                    <div class="card cardsecondguide my-3">
                         <div class="card-body secondaryguide">
                             <a href="#">
                                 <h5 class="card-title">¿Como comprar en FlyRolling?</h5>
@@ -1032,7 +1058,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 col-12">
-                    <div class="card mb-3 cardsecondguide">
+                    <div class="card my-3 cardsecondguide">
                         <div class="card-body secondaryguide">
                             <a href="#">
                                 <h5 class="card-title text-dark">Documentación necesaria para comprar y viajar</h5></a>
@@ -1042,7 +1068,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-12 col-12">
-                    <div class="card mb-3 cardsecondguide">
+                    <div class="card my-3 cardsecondguide">
                         <div class="card-body secondaryguide">
                             <a href="#">
                                 <h5 class="card-title text-dark">¿Se puede modificar o cancelar una comprar?</h5></a>
@@ -1053,7 +1079,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 col-12">
-                    <div class="card mb-3 cardsecondguide">
+                    <div class="card my-3 cardsecondguide">
                         <div class="card-body secondaryguide">
                             <a href="#">
                                 <h5 class="card-title text-dark">¿Por qué elegir FlyRolling para tu viaje?</h5></a>
@@ -1066,7 +1092,6 @@
                 </div>
             </div>
         </div>
-
         <!-- END GUIA DE VIAJES -->
     </div>  <!-- END SECONDARY CONTAINER -->
     <!-- FOOTER -->
@@ -1114,7 +1139,7 @@
                     <p class="text-center my-2"><span class="text-dark">Posventas</span> + 54 11 5173 3543</p>
                 </div>
             </div>
-            <hr class="m-0"/>
+            <hr class="mt-0 mb-2"/>
             <div class="row justify-content-around">
                 <div class="col-md-4">
                     <div class="p4 text-center">
