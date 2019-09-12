@@ -29,26 +29,22 @@ p, a, strong, span, li, small {
 }
 
 .bg_navbar {
-    background:#e91e63                ;
+    background:#304848;
 }
 
 .bg_main {
-    background: white;
+    background: #304860;
 }
 
 
 .bg_footer {
-    background:#e91e63        ;
+    background:#A8A8A8;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-.bg_fly {
-    background: #29b6f6  !important;
 }
 
 /** HEADER**/
@@ -103,7 +99,7 @@ nav .nav-item a:hover{
 }
 
 .stars-container i {
-    color: a;
+    color: #E16C02;
     font-size: 12px;
 }
 
@@ -462,7 +458,7 @@ footer .form-image-container img {
 }
 
 .aside-color {
-    background-color: #29b6f6 !important;
+    background-color: #304848 !important;
 }
 
 .form-text {
@@ -601,13 +597,5 @@ footer .form-image-container img {
 /**CHECKOUT**/
 .textdec {
     text-decoration: none !important;
-}
-
-.bg-lgreen {
-    background: #00e676  !important;
-}
-
-.bg-alert {
-    background: #f069ab ;
 }
 /**CHECKOUT**/
