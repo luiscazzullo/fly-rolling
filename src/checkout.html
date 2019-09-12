@@ -13,7 +13,7 @@
     <!-- HEADER -->
     <div class="bg_navbar">
         <div class="container">
-            <div class="row justify-content-between">
+            <div class="row justify-content-between ">
                 <div class="col-sm-1 col-md-3 ">
                     <nav class="navbar">
                         <a class="navbar-brand navbar" href="./index.html">
@@ -21,8 +21,8 @@
                         </a>
                     </nav>           
                 </div>
-               <div class="col-sm-11 col-md-9 ">
-                    <ul class="nav justify-content-end p-3">
+               <div class="col-sm-11 col-md-9 " style="border-bottom-left-radius: 24px;">
+                    <ul class="nav justify-content-end p-3 " >
                         <li class="nav-item">
                           <a class="nav-link active" href="index.html">
                             <i class="fas fa-headphones"></i>
@@ -57,18 +57,17 @@
     <!-- PAY -->
     <div class="container">
         <div class="row ">
-            <div class="col-8 mt-4">
+            <div class="col-md-8 mt-4">
                 <h2>Ya casi estás</h2>
-                <div class="card text-white bg-primary mb-3" >
+                <div class="alert  bg-alert alert-dismissible fade show" role="alert">
+                    <strong>Apurate</strong> <br> <strong class="text-dark"> Últimos 6 lugares disponibles para este Vuelo. ¡No te lo pierdas! Confirma ahora tu reserva.</strong>
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                 </div>                
+                <div class="card bg-lgreen mb-3">
                     <div class="card-body">
-                        <h5 class="card-title">Apurate</h5>
-                        <p class="card-text">Últimos 6 lugares disponibles para este Vuelo. ¡No te lo pierdas! Confirma ahora tu reserva.</p>
-                    </div>
-                </div>
-                <div class="card text-white bg-primary mb-3" >
-                    <div class="card-body">
-                        <h5 class="card-title border-dark">¿Cómo querés pagar?</h5>
-                        <h6><a href="">Ver condiciones</a></h6>
+                        <h5 class="card-title border-dark">¿Cómo querés pagar?</h5>                        
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
                             <label class="form-check-label" for="exampleRadios1">
@@ -84,10 +83,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="card text-white bg-primary mb-3" >
+                <div class="card text-dark bg-lgreen mb-3" >
                     <div class="card-body">
-                        <h5 class="card-title border-dark">Selecciona tu tarjeta</h5>
-                        <h6><a href="">Ver condiciones</a></h6>
+                        <h5 class="card-title border-dark">Selecciona tu tarjeta</h5>                        
                         <button type="button" class="btn btn-light btn-lg" data-toggle="modal" data-target="#exampleModalLong">Seleccionar tarjeta</button>
                         <div class="modal fade " id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                             <div class="modal-dialog" role="document">
@@ -159,7 +157,7 @@
                         </div>                         
                     </div>
                 </div>               
-                <div class="card text-white bg-primary mb-3" >
+                <div class="card text-white bg-lgreen mb-3" >
                     <div class="card-body">
                         <h5>¿Quiénes viajan?</h5>
                         <form >
@@ -212,9 +210,9 @@
                         </form>                         
                     </div>
                 </div>                 
-                <div class="card text-white bg-primary mb-3">
+                <div class="card text-dark bg-lgreen mb-3">
                     <div id="accordion">
-                        <div class="card text-white bg-primary mb-0">
+                        <div class="card text-dark bg-lgreen mb-0">
                             <div class="card-header" >                            
                             <a class="card-link" data-toggle="collapse" href="#collapseOne" > 
                                 <h5>No incluye equipaje</h5>                                         
@@ -279,7 +277,7 @@
                         </div>
                     </div>                    
                 </div>
-                <div class="card text-white bg-primary mb-3" >
+                <div class="card text-white bg-lgreen mb-3" >
                     <div class="card-body">
                         <h5>¿A dónde enviamos tus vouchers?</h5>
                         <form>
@@ -298,7 +296,7 @@
                         </div>                  
                     </div>
                 </div>
-                <div class="card text-white bg-primary mb-3" >
+                <div class="card text-white bg-lgreen mb-3" >
                     <div class="card-body">
                         <h5>¿A qué número te podemos llamar?</h5>
                         <form>
@@ -325,7 +323,7 @@
                                     <label>Área</label>
                                     <input type="text" class="form-control" id="inputCode">
                                 </div>
-                                <div class="form-group col-md-6">
+                                <div class="form-group col-md-6 ml-3">
                                     <label>Número</label>
                                     <input type="text" class="form-control" id="inputNumber">
                                 </div> 
@@ -337,15 +335,15 @@
                         </div>                  
                     </div>
                 </div>
-                <div class="card text-white bg-primary mb-3" >
+                <div class="card text-white bg-lgreen mb-3" >
                     <div class="card-body">
                         <div class="row">
-                            <div class="col-8 border-right">
+                            <div class="col-md-8 border-right">
                                 <div class="row">
-                                    <div class="col-2">
+                                    <div class="col-md-2">
                                     <img src="./images/assistcard.png" alt="">
                                     </div>
-                                    <div class="col-9">
+                                    <div class="col-md-9">
                                     <h5>Asistencia al viajero</h5>
                                     <small>ASSISTCARD</small> 
                                     <br>
@@ -358,7 +356,7 @@
                                     </div>
                                 </div>
                             </div>  
-                            <div class="col-4">
+                            <div class="col-md-4">
                                     <span class="badge badge-success badge-pill">50% OFF</span>
                                     <p>Por 5 días para 1 persona</p>
                                     <strong>$500  </strong><small class="text-secondary"><del>$1000</del></small>
@@ -375,9 +373,9 @@
                 <br>
                 <button type="submit" class="btn btn-primary mb-4">Comprar</button>
             </div>
-            <div class="col-4 mt-4">
+            <div class="col-md-4 mt-4">
                 <h2>Detalle de pago</h2>
-                <div class="card text-white bg-primary mb-3" >
+                <div class="card text-white bg-lgreen mb-3" >
                     <div class="card-body">
                         <p class="card-text">Vuelo para una persona</p>                        
                         <p class="card-text">Impuestos tasas y cargos</p>
@@ -386,7 +384,7 @@
                     </div>
                 </div>
                 <h2>Detalle de compra</h2>                
-                <div class="card text-white bg-primary mb-3" >
+                <div class="card text-white bg-lgreen mb-3" >
                     <div class="card-body">
                         <p class="card-text">Vuelo para una persona</p>                        
                         <p class="card-text">Impuestos tasas y cargos</p>
@@ -394,15 +392,15 @@
                         <h3>TOTAL</h3>
                     </div>
                 </div>
-                <div class="card text-white bg-primary mb-3" >
+                <div class="card text-white bg-lgreen mb-3" >
                     <div class="card-body">
                         <h6>Política de cambios y cancelaciones</h6>                        
                         <button class="btn btn-secondary mt-4">Ver condiciones</button>
                     </div>
                 </div>
-                <div class="card text-white bg-primary mb-3">
+                <div class="card text-white bg-lgreen mb-3">
                     <div id="accordion">
-                        <div class="card text-dark bg-primary mb-0">
+                        <div class="card text-dark bg-lgreen mb-0">
                             <div class="card-header" >                            
                             <a class="card-link" data-toggle="collapse" href="#collapseOne" > 
                                 <h5>Código de referencia</h5>                                         
@@ -480,11 +478,9 @@
     
                 <div class="col-md-4">
                     <p class="text-center my-2"><span class="text-dark">Posventas</span> + 54 11 5173 3543</p>
-                </div>
-    
+                </div>    
             </div>
-            <hr class="m-0"/>
-    
+            <hr class="m-0"/>    
             <div class="row justify-content-around p-4 text-center">
                 <div class="col-md-4">
                     <h6>¿Quiénes somos?</h6>
@@ -504,12 +500,9 @@
                     <a class="link-decoration" href="#">Dirección</a><br/>
                     <a class="link-decoration" href="#">Email</a>
                 </div>
-            </div>
-    
-        </footer>
-    
-        <!-- END FOOTER -->
-    
+            </div>    
+        </footer>    
+        <!-- END FOOTER -->    
     <script src="./js/checkout.js"></script>
 </body>
 </html>
