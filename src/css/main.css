@@ -29,22 +29,26 @@ p, a, strong, span, li, small {
 }
 
 .bg_navbar {
-    background:#304848;
+    background:#e91e63                ;
 }
 
 .bg_main {
-    background: #304860;
+    background: white;
 }
 
 
 .bg_footer {
-    background:#A8A8A8;
+    background:#e91e63        ;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.bg_fly {
+    background: #29b6f6  !important;
 }
 
 /** HEADER**/
@@ -99,7 +103,7 @@ nav .nav-item a:hover{
 }
 
 .stars-container i {
-    color: #E16C02;
+    color: a;
     font-size: 12px;
 }
 
@@ -458,7 +462,7 @@ footer .form-image-container img {
 }
 
 .aside-color {
-    background-color: #304848 !important;
+    background-color: #29b6f6 !important;
 }
 
 .form-text {
@@ -597,5 +601,13 @@ footer .form-image-container img {
 /**CHECKOUT**/
 .textdec {
     text-decoration: none !important;
+}
+
+.bg-lgreen {
+    background: #00e676  !important;
+}
+
+.bg-alert {
+    background: #f069ab ;
 }
 /**CHECKOUT**/
