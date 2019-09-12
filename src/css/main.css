@@ -29,7 +29,7 @@ p, a, strong, span, li, small {
 }
 
 .bg_navbar {
-    background:#ff1744     ;
+    background:#e91e63                ;
 }
 
 .bg_main {
@@ -38,13 +38,17 @@ p, a, strong, span, li, small {
 
 
 .bg_footer {
-    background:#ff1744 ;
+    background:#e91e63        ;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.bg_fly {
+    background: #29b6f6  !important;
 }
 
 /** HEADER**/
@@ -99,7 +103,7 @@ nav .nav-item a:hover{
 }
 
 .stars-container i {
-    color: #E16C02;
+    color: a;
     font-size: 12px;
 }
 
@@ -458,7 +462,7 @@ footer .form-image-container img {
 }
 
 .aside-color {
-    background-color: #304848 !important;
+    background-color: #29b6f6 !important;
 }
 
 .form-text {
