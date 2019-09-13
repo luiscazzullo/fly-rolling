@@ -128,7 +128,7 @@ nav .nav-item a:hover{
 /**CARD TIPO 2**/
 .card-body h5 .price{
     text-decoration: line-through;
-    font-size: 70%;
+    font-size: 80%;
     color: gray;
 }
 /**END CARD TIPO 2**/
@@ -185,7 +185,7 @@ nav .nav-item a:hover{
     size:15px;
 }
 .card-guide{
-    height:300px;
+    min-height:300px;
 }
 
 /*END DE VIAJE*/
@@ -434,7 +434,7 @@ footer .form-image-container img {
     text-decoration: none;
 }
 .cardsecondguide{
-    height:630px;
+    height:auto;
 }
 /**END SECONDARY GUIDE**/
 
